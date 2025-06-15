@@ -1,0 +1,68 @@
+artifact_path: mlflow-artifacts:/1/models/m-5d71a176fa4c4ea898a6b98711ca1359/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.23
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.0
+model_id: m-5d71a176fa4c4ea898a6b98711ca1359
+model_size_bytes: 18507985
+model_uuid: m-5d71a176fa4c4ea898a6b98711ca1359
+prompts: null
+run_id: 3f6b0e92855e4f16b39c8328ebd635d8
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Age", "required": true}, {"type": "double",
+    "name": "Number of Dependents", "required": true}, {"type": "double", "name":
+    "Zip Code", "required": true}, {"type": "double", "name": "Latitude", "required":
+    true}, {"type": "double", "name": "Longitude", "required": true}, {"type": "double",
+    "name": "Number of Referrals", "required": true}, {"type": "double", "name": "Tenure
+    in Months", "required": true}, {"type": "double", "name": "Avg Monthly Long Distance
+    Charges", "required": true}, {"type": "double", "name": "Avg Monthly GB Download",
+    "required": false}, {"type": "double", "name": "Monthly Charge", "required": true},
+    {"type": "double", "name": "Total Charges", "required": true}, {"type": "double",
+    "name": "Total Refunds", "required": true}, {"type": "double", "name": "Total
+    Extra Data Charges", "required": true}, {"type": "double", "name": "Total Long
+    Distance Charges", "required": true}, {"type": "double", "name": "Total Revenue",
+    "required": true}, {"type": "double", "name": "Gender_Male", "required": true},
+    {"type": "double", "name": "Married_Yes", "required": true}, {"type": "double",
+    "name": "Phone Service_Yes", "required": true}, {"type": "double", "name": "Multiple
+    Lines_Yes", "required": true}, {"type": "double", "name": "Multiple Lines_nan",
+    "required": true}, {"type": "double", "name": "Internet Service_Yes", "required":
+    true}, {"type": "double", "name": "Internet Type_DSL", "required": true}, {"type":
+    "double", "name": "Internet Type_Fiber Optic", "required": true}, {"type": "double",
+    "name": "Internet Type_nan", "required": true}, {"type": "double", "name": "Online
+    Security_Yes", "required": true}, {"type": "double", "name": "Online Security_nan",
+    "required": true}, {"type": "double", "name": "Online Backup_Yes", "required":
+    true}, {"type": "double", "name": "Online Backup_nan", "required": true}, {"type":
+    "double", "name": "Device Protection Plan_Yes", "required": true}, {"type": "double",
+    "name": "Device Protection Plan_nan", "required": true}, {"type": "double", "name":
+    "Premium Tech Support_Yes", "required": true}, {"type": "double", "name": "Premium
+    Tech Support_nan", "required": true}, {"type": "double", "name": "Streaming TV_Yes",
+    "required": true}, {"type": "double", "name": "Streaming TV_nan", "required":
+    true}, {"type": "double", "name": "Streaming Movies_Yes", "required": true}, {"type":
+    "double", "name": "Streaming Movies_nan", "required": true}, {"type": "double",
+    "name": "Streaming Music_Yes", "required": true}, {"type": "double", "name": "Streaming
+    Music_nan", "required": true}, {"type": "double", "name": "Unlimited Data_Yes",
+    "required": true}, {"type": "double", "name": "Unlimited Data_nan", "required":
+    true}, {"type": "double", "name": "Paperless Billing_Yes", "required": true},
+    {"type": "double", "name": "Payment Method_Credit Card", "required": true}, {"type":
+    "double", "name": "Payment Method_Mailed Check", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-15 10:42:11.192764'

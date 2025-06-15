@@ -1,0 +1,595 @@
+[2025-06-15T01:00:41.654+0100] {processor.py:161} INFO - Started process (PID=230032) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:00:41.655+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:00:41.655+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:00:41.655+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:00:41.658+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:00:41.667+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:00:41.667+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:00:41.672+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:00:41.672+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:00:41.687+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2025-06-15T01:01:49.600+0100] {processor.py:161} INFO - Started process (PID=230560) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:01:49.605+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:01:49.607+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:01:49.606+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:01:49.610+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:01:49.617+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:01:49.617+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:01:49.623+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:01:49.623+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:01:49.634+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.037 seconds
+[2025-06-15T01:02:54.149+0100] {processor.py:161} INFO - Started process (PID=231052) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:02:54.155+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:02:54.156+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:02:54.156+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:02:54.159+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:02:54.167+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:02:54.167+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:02:54.173+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:02:54.173+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:02:54.185+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T01:04:05.681+0100] {processor.py:161} INFO - Started process (PID=231533) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:04:05.682+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:04:05.683+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:04:05.683+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:04:05.686+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:04:05.694+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:04:05.694+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:04:05.699+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:04:05.699+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:04:05.710+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T01:05:12.236+0100] {processor.py:161} INFO - Started process (PID=232137) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:05:12.241+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:05:12.242+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:05:12.242+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:05:12.245+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:05:12.253+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:05:12.253+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:05:12.258+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:05:12.258+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:05:12.270+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T01:06:20.437+0100] {processor.py:161} INFO - Started process (PID=232647) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:06:20.443+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:06:20.444+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:06:20.444+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:06:20.447+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:06:20.455+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:06:20.455+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:06:20.460+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:06:20.460+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:06:20.471+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T01:07:26.903+0100] {processor.py:161} INFO - Started process (PID=233188) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:07:26.909+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:07:26.910+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:07:26.910+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:07:26.913+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:07:26.921+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:07:26.921+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:07:26.927+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:07:26.927+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:07:26.938+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T01:08:33.330+0100] {processor.py:161} INFO - Started process (PID=233725) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:08:33.336+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:08:33.337+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:08:33.337+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:08:33.340+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:08:33.348+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:08:33.348+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:08:33.353+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:08:33.353+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:08:33.365+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T01:09:43.550+0100] {processor.py:161} INFO - Started process (PID=234226) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:09:43.555+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:09:43.556+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:09:43.556+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:09:43.560+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:09:43.569+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:09:43.569+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:09:43.574+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:09:43.574+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:09:43.585+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T01:10:45.434+0100] {processor.py:161} INFO - Started process (PID=234780) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:10:45.440+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:10:45.441+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:10:45.441+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:10:45.445+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:10:45.453+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:10:45.452+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:10:45.458+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:10:45.458+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:10:45.470+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T01:11:49.126+0100] {processor.py:161} INFO - Started process (PID=236018) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:11:49.131+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:11:49.133+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:11:49.132+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:11:49.136+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:11:49.143+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:11:49.143+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:11:49.149+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:11:49.149+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:11:49.161+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T01:12:55.105+0100] {processor.py:161} INFO - Started process (PID=236593) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:12:55.105+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:12:55.106+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:12:55.106+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:12:55.109+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:12:55.116+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:12:55.116+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:12:55.121+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:12:55.121+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:12:55.133+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.031 seconds
+[2025-06-15T01:14:08.966+0100] {processor.py:161} INFO - Started process (PID=237329) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:14:08.967+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:14:08.968+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:14:08.968+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:14:08.971+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:14:08.979+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:14:08.978+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:14:08.984+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:14:08.984+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:14:08.995+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T01:15:18.777+0100] {processor.py:161} INFO - Started process (PID=238382) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:15:18.778+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:15:18.779+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:15:18.778+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:15:18.781+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:15:18.789+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:15:18.788+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:15:18.794+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:15:18.794+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:15:18.804+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.031 seconds
+[2025-06-15T01:17:20.667+0100] {processor.py:161} INFO - Started process (PID=240358) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:17:20.668+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:17:20.669+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:17:20.668+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:17:20.671+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:17:20.710+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:17:20.710+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:17:20.714+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:17:20.714+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:17:20.725+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-06-15T01:18:17.270+0100] {processor.py:161} INFO - Started process (PID=240784) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:18:17.271+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:18:17.272+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:18:17.272+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:18:17.275+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:18:17.283+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:18:17.283+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:18:17.290+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:18:17.290+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:18:17.303+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2025-06-15T01:19:29.326+0100] {processor.py:161} INFO - Started process (PID=241345) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:19:29.332+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:19:29.332+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:19:29.332+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:19:29.335+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:19:29.343+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:19:29.343+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:19:29.348+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:19:29.348+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:19:29.358+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.035 seconds
+[2025-06-15T01:20:34.884+0100] {processor.py:161} INFO - Started process (PID=241747) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:20:34.889+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:20:34.890+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:20:34.890+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:20:34.893+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:20:34.900+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:20:34.900+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:20:34.906+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:20:34.905+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:20:34.916+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2025-06-15T01:21:41.138+0100] {processor.py:161} INFO - Started process (PID=242260) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:21:41.144+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:21:41.145+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:21:41.144+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:21:41.148+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:21:41.156+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:21:41.156+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:21:41.162+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:21:41.161+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:21:41.173+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T01:22:47.468+0100] {processor.py:161} INFO - Started process (PID=253213) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:22:47.469+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T01:22:47.470+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:22:47.470+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:22:47.473+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T01:22:47.480+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:22:47.480+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T01:22:47.485+0100] {logging_mixin.py:188} INFO - [2025-06-15T01:22:47.485+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T01:22:47.497+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T07:57:10.573+0100] {processor.py:161} INFO - Started process (PID=254131) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T07:57:10.574+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T07:57:10.575+0100] {logging_mixin.py:188} INFO - [2025-06-15T07:57:10.574+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T07:57:10.578+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T07:57:10.586+0100] {logging_mixin.py:188} INFO - [2025-06-15T07:57:10.586+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T07:57:10.592+0100] {logging_mixin.py:188} INFO - [2025-06-15T07:57:10.592+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T07:57:10.606+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.037 seconds
+[2025-06-15T07:58:11.156+0100] {processor.py:161} INFO - Started process (PID=254494) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T07:58:11.162+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T07:58:11.163+0100] {logging_mixin.py:188} INFO - [2025-06-15T07:58:11.163+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T07:58:11.166+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T07:58:11.173+0100] {logging_mixin.py:188} INFO - [2025-06-15T07:58:11.173+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T07:58:11.179+0100] {logging_mixin.py:188} INFO - [2025-06-15T07:58:11.179+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T07:58:11.191+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T07:59:09.998+0100] {processor.py:161} INFO - Started process (PID=254764) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T07:59:09.999+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T07:59:09.999+0100] {logging_mixin.py:188} INFO - [2025-06-15T07:59:09.999+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T07:59:10.002+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T07:59:10.010+0100] {logging_mixin.py:188} INFO - [2025-06-15T07:59:10.010+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T07:59:10.015+0100] {logging_mixin.py:188} INFO - [2025-06-15T07:59:10.015+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T07:59:10.026+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T08:00:08.608+0100] {processor.py:161} INFO - Started process (PID=255735) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:00:08.614+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:00:08.615+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:00:08.614+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:00:08.618+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:00:08.626+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:00:08.625+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:00:08.631+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:00:08.631+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:00:08.641+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2025-06-15T08:01:04.277+0100] {processor.py:161} INFO - Started process (PID=256055) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:01:04.282+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:01:04.283+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:01:04.283+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:01:04.287+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:01:04.295+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:01:04.295+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:01:04.301+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:01:04.301+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:01:04.313+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T08:02:03.139+0100] {processor.py:161} INFO - Started process (PID=256414) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:02:03.144+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:02:03.145+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:02:03.145+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:02:03.148+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:02:03.156+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:02:03.156+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:02:03.161+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:02:03.161+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:02:03.171+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.035 seconds
+[2025-06-15T08:03:04.715+0100] {processor.py:161} INFO - Started process (PID=256764) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:03:04.720+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:03:04.721+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:03:04.721+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:03:04.725+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:03:04.733+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:03:04.733+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:03:04.740+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:03:04.740+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:03:04.752+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.041 seconds
+[2025-06-15T08:04:05.867+0100] {processor.py:161} INFO - Started process (PID=257137) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:04:05.872+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:04:05.873+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:04:05.873+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:04:05.876+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:04:05.884+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:04:05.883+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:04:05.889+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:04:05.889+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:04:05.900+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2025-06-15T08:05:02.491+0100] {processor.py:161} INFO - Started process (PID=257528) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:05:02.497+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:05:02.498+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:05:02.497+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:05:02.501+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:05:02.508+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:05:02.508+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:05:02.514+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:05:02.514+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:05:02.526+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T08:05:58.026+0100] {processor.py:161} INFO - Started process (PID=257903) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:05:58.032+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:05:58.033+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:05:58.033+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:05:58.037+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:05:58.046+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:05:58.046+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:05:58.053+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:05:58.052+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:05:58.065+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.042 seconds
+[2025-06-15T08:06:53.773+0100] {processor.py:161} INFO - Started process (PID=258230) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:06:53.774+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:06:53.774+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:06:53.774+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:06:53.777+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:06:53.786+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:06:53.785+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:06:53.791+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:06:53.791+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:06:53.802+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.033 seconds
+[2025-06-15T08:07:50.611+0100] {processor.py:161} INFO - Started process (PID=258608) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:07:50.616+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:07:50.617+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:07:50.617+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:07:50.621+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:07:50.629+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:07:50.629+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:07:50.635+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:07:50.635+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:07:50.647+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T08:08:47.637+0100] {processor.py:161} INFO - Started process (PID=258939) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:08:47.638+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:08:47.639+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:08:47.639+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:08:47.642+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:08:47.650+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:08:47.650+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:08:47.656+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:08:47.655+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:08:47.667+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.033 seconds
+[2025-06-15T08:09:43.084+0100] {processor.py:161} INFO - Started process (PID=259288) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:09:43.085+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:09:43.086+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:09:43.086+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:09:43.089+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:09:43.097+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:09:43.097+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:09:43.103+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:09:43.103+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:09:43.116+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.035 seconds
+[2025-06-15T08:10:38.817+0100] {processor.py:161} INFO - Started process (PID=259718) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:10:38.818+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T08:10:38.819+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:10:38.819+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:10:38.822+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T08:10:38.830+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:10:38.830+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T08:10:38.836+0100] {logging_mixin.py:188} INFO - [2025-06-15T08:10:38.835+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T08:10:38.848+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.034 seconds
+[2025-06-15T10:15:14.717+0100] {processor.py:161} INFO - Started process (PID=299175) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:15:14.723+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:15:14.724+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:15:14.724+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:15:14.727+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:15:14.770+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:15:14.770+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:15:14.774+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:15:14.774+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:15:14.784+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.071 seconds
+[2025-06-15T10:16:13.554+0100] {processor.py:161} INFO - Started process (PID=299544) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:16:13.555+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:16:13.556+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:16:13.556+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:16:13.559+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:16:13.567+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:16:13.567+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:16:13.572+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:16:13.572+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:16:13.584+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.034 seconds
+[2025-06-15T10:17:08.752+0100] {processor.py:161} INFO - Started process (PID=299758) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:17:08.758+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:17:08.759+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:17:08.759+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:17:08.764+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:17:08.774+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:17:08.774+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:17:08.780+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:17:08.780+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:17:08.794+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2025-06-15T10:18:07.017+0100] {processor.py:161} INFO - Started process (PID=300162) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:18:07.018+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:18:07.019+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:18:07.019+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:18:07.022+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:18:07.030+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:18:07.030+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:18:07.035+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:18:07.035+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:18:07.047+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.034 seconds
+[2025-06-15T10:19:01.570+0100] {processor.py:161} INFO - Started process (PID=300531) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:19:01.571+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:19:01.572+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:19:01.572+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:19:01.575+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:19:01.584+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:19:01.584+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:19:01.590+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:19:01.589+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:19:01.602+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.035 seconds
+[2025-06-15T10:19:59.534+0100] {processor.py:161} INFO - Started process (PID=300934) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:19:59.536+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:19:59.537+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:19:59.537+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:19:59.540+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:19:59.549+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:19:59.549+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:19:59.555+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:19:59.555+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:19:59.567+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2025-06-15T10:20:56.327+0100] {processor.py:161} INFO - Started process (PID=301204) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:20:56.332+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:20:56.333+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:20:56.333+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:20:56.336+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:20:56.344+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:20:56.344+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:20:56.349+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:20:56.349+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:20:56.361+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T10:22:13.305+0100] {processor.py:161} INFO - Started process (PID=301687) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:22:13.306+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:22:13.306+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:22:13.306+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:22:13.309+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:22:13.353+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:22:13.353+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:22:13.358+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:22:13.357+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:22:13.371+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.069 seconds
+[2025-06-15T10:23:11.169+0100] {processor.py:161} INFO - Started process (PID=301875) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:23:11.175+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:23:11.176+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:23:11.176+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:23:11.179+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:23:11.187+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:23:11.187+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:23:11.193+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:23:11.193+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:23:11.205+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T10:24:10.786+0100] {processor.py:161} INFO - Started process (PID=302166) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:24:10.787+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:24:10.788+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:24:10.788+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:24:10.792+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:24:10.800+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:24:10.800+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:24:10.808+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:24:10.808+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:24:10.820+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.037 seconds
+[2025-06-15T10:25:07.679+0100] {processor.py:161} INFO - Started process (PID=302570) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:25:07.685+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T10:25:07.686+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:25:07.686+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:25:07.689+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T10:25:07.697+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:25:07.697+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T10:25:07.702+0100] {logging_mixin.py:188} INFO - [2025-06-15T10:25:07.702+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T10:25:07.713+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.037 seconds
+[2025-06-15T11:46:10.813+0100] {processor.py:161} INFO - Started process (PID=323934) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:46:10.814+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T11:46:10.815+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:46:10.815+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:46:10.818+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:46:10.860+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:46:10.860+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T11:46:10.865+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:46:10.865+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T11:46:10.877+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-06-15T11:47:10.138+0100] {processor.py:161} INFO - Started process (PID=324442) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:47:10.139+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T11:47:10.140+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:47:10.140+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:47:10.143+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:47:10.151+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:47:10.150+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T11:47:10.156+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:47:10.156+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T11:47:10.167+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.034 seconds
+[2025-06-15T11:48:08.467+0100] {processor.py:161} INFO - Started process (PID=324743) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:48:08.473+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T11:48:08.474+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:48:08.474+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:48:08.477+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:48:08.485+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:48:08.485+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T11:48:08.490+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:48:08.490+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T11:48:08.503+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T11:49:06.425+0100] {processor.py:161} INFO - Started process (PID=325131) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:49:06.431+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T11:49:06.432+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:49:06.432+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:49:06.435+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:49:06.442+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:49:06.442+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T11:49:06.448+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:49:06.448+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T11:49:06.460+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T11:50:06.168+0100] {processor.py:161} INFO - Started process (PID=325572) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:50:06.170+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T11:50:06.170+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:50:06.170+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:50:06.173+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T11:50:06.181+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:50:06.181+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T11:50:06.186+0100] {logging_mixin.py:188} INFO - [2025-06-15T11:50:06.186+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T11:50:06.198+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T18:13:47.241+0100] {processor.py:161} INFO - Started process (PID=475451) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:13:47.242+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:13:47.243+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:13:47.243+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:13:47.246+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:13:47.287+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:13:47.287+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:13:47.292+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:13:47.292+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:13:47.345+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.107 seconds
+[2025-06-15T18:14:39.580+0100] {processor.py:161} INFO - Started process (PID=475835) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:14:39.585+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:14:39.586+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:14:39.586+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:14:39.589+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:14:39.597+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:14:39.597+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:14:39.602+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:14:39.602+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:14:39.614+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T18:24:59.652+0100] {processor.py:161} INFO - Started process (PID=481270) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:24:59.653+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:24:59.654+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:24:59.654+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:24:59.658+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:24:59.698+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:24:59.697+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:24:59.702+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:24:59.702+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:24:59.713+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.064 seconds
+[2025-06-15T18:25:49.856+0100] {processor.py:161} INFO - Started process (PID=481620) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:25:49.862+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:25:49.863+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:25:49.863+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:25:49.871+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:25:49.885+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:25:49.884+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:25:49.894+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:25:49.894+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:25:49.907+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.055 seconds
+[2025-06-15T18:27:50.988+0100] {processor.py:161} INFO - Started process (PID=482881) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:27:50.989+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:27:50.989+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:27:50.989+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:27:50.993+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:27:51.033+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:27:51.033+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:27:51.038+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:27:51.038+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:27:51.050+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.065 seconds
+[2025-06-15T18:28:42.144+0100] {processor.py:161} INFO - Started process (PID=483355) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:28:42.149+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:28:42.150+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:28:42.150+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:28:42.153+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:28:42.162+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:28:42.162+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:28:42.167+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:28:42.167+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:28:42.178+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T18:29:36.258+0100] {processor.py:161} INFO - Started process (PID=483958) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:29:36.259+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:29:36.260+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:29:36.260+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:29:36.263+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:29:36.270+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:29:36.270+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:29:36.276+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:29:36.276+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:29:36.287+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T18:31:39.874+0100] {processor.py:161} INFO - Started process (PID=486119) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:31:39.880+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:31:39.881+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:31:39.881+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:31:39.885+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:31:39.925+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:31:39.925+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:31:39.930+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:31:39.930+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:31:39.941+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.070 seconds
+[2025-06-15T18:32:30.046+0100] {processor.py:161} INFO - Started process (PID=486802) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:32:30.047+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:32:30.048+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:32:30.048+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:32:30.051+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:32:30.061+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:32:30.061+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:32:30.069+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:32:30.068+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:32:30.082+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.040 seconds
+[2025-06-15T18:33:45.146+0100] {processor.py:161} INFO - Started process (PID=488503) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:33:45.152+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:33:45.153+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:33:45.153+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:33:45.156+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:33:45.163+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:33:45.163+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:33:45.169+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:33:45.169+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:33:45.181+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.038 seconds
+[2025-06-15T18:34:34.352+0100] {processor.py:161} INFO - Started process (PID=488969) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:34:34.353+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:34:34.354+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:34:34.354+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:34:34.357+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:34:34.364+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:34:34.364+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:34:34.370+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:34:34.370+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:34:34.384+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.035 seconds
+[2025-06-15T18:35:32.194+0100] {processor.py:161} INFO - Started process (PID=489449) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:35:32.195+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:35:32.196+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:35:32.196+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:35:32.199+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:35:32.207+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:35:32.207+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:35:32.212+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:35:32.212+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:35:32.223+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T18:36:32.668+0100] {processor.py:161} INFO - Started process (PID=490063) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:36:32.669+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:36:32.669+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:36:32.669+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:36:32.672+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:36:32.680+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:36:32.680+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:36:32.685+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:36:32.685+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:36:32.696+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.031 seconds
+[2025-06-15T18:37:34.285+0100] {processor.py:161} INFO - Started process (PID=490631) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:37:34.290+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:37:34.291+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:37:34.291+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:37:34.295+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:37:34.304+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:37:34.304+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:37:34.310+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:37:34.310+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:37:34.321+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.040 seconds
+[2025-06-15T18:38:37.071+0100] {processor.py:161} INFO - Started process (PID=491197) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:38:37.076+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:38:37.077+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:38:37.077+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:38:37.080+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:38:37.088+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:38:37.088+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:38:37.093+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:38:37.093+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:38:37.104+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.037 seconds
+[2025-06-15T18:39:34.178+0100] {processor.py:161} INFO - Started process (PID=491772) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:39:34.184+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:39:34.184+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:39:34.184+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:39:34.187+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:39:34.195+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:39:34.195+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:39:34.201+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:39:34.201+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:39:34.212+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.039 seconds
+[2025-06-15T18:40:40.052+0100] {processor.py:161} INFO - Started process (PID=492343) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:40:40.057+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:40:40.058+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:40:40.058+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:40:40.061+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:40:40.070+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:40:40.070+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:40:40.077+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:40:40.077+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:40:40.089+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.041 seconds
+[2025-06-15T18:41:36.469+0100] {processor.py:161} INFO - Started process (PID=492949) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:41:36.469+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:41:36.470+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:41:36.470+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:41:36.473+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:41:36.481+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:41:36.481+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:41:36.486+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:41:36.486+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:41:36.496+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.031 seconds
+[2025-06-15T18:42:40.891+0100] {processor.py:161} INFO - Started process (PID=493396) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:42:40.892+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:42:40.893+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:42:40.892+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:42:40.896+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:42:40.903+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:42:40.903+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:42:40.909+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:42:40.909+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:42:40.919+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T18:43:29.424+0100] {processor.py:161} INFO - Started process (PID=493693) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:43:29.425+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:43:29.426+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:43:29.426+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:43:29.430+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:43:29.438+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:43:29.438+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:43:29.445+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:43:29.445+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:43:29.456+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.035 seconds
+[2025-06-15T18:44:28.667+0100] {processor.py:161} INFO - Started process (PID=494082) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:44:28.667+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:44:28.668+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:44:28.668+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:44:28.672+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:44:28.681+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:44:28.681+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:44:28.687+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:44:28.687+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:44:28.699+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2025-06-15T18:45:28.482+0100] {processor.py:161} INFO - Started process (PID=494415) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:45:28.483+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:45:28.484+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:45:28.484+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:45:28.488+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:45:28.499+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:45:28.499+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:45:28.506+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:45:28.506+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:45:28.522+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-06-15T18:46:32.889+0100] {processor.py:161} INFO - Started process (PID=494830) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:46:32.894+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:46:32.895+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:46:32.895+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:46:32.898+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:46:32.907+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:46:32.907+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:46:32.913+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:46:32.913+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:46:32.926+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.041 seconds
+[2025-06-15T18:47:33.099+0100] {processor.py:161} INFO - Started process (PID=495192) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:47:33.100+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:47:33.101+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:47:33.101+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:47:33.104+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:47:33.111+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:47:33.111+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:47:33.117+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:47:33.117+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:47:33.128+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T18:53:48.346+0100] {processor.py:161} INFO - Started process (PID=497332) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:53:48.352+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:53:48.353+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:53:48.353+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:53:48.359+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:53:48.398+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:53:48.398+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:53:48.402+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:53:48.402+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:53:48.414+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.072 seconds
+[2025-06-15T18:54:38.546+0100] {processor.py:161} INFO - Started process (PID=498054) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:54:38.547+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:54:38.548+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:54:38.547+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:54:38.551+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:54:38.561+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:54:38.561+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:54:38.568+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:54:38.568+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:54:38.580+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.037 seconds
+[2025-06-15T18:55:38.196+0100] {processor.py:161} INFO - Started process (PID=498878) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:55:38.196+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:55:38.197+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:55:38.197+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:55:38.200+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:55:38.208+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:55:38.208+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:55:38.214+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:55:38.214+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:55:38.225+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.032 seconds
+[2025-06-15T18:56:42.267+0100] {processor.py:161} INFO - Started process (PID=499968) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:56:42.268+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T18:56:42.269+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:56:42.268+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:56:42.271+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T18:56:42.279+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:56:42.279+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T18:56:42.285+0100] {logging_mixin.py:188} INFO - [2025-06-15T18:56:42.285+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T18:56:42.297+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.033 seconds
+[2025-06-15T20:06:41.211+0100] {processor.py:161} INFO - Started process (PID=531943) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:06:41.217+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T20:06:41.218+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:06:41.218+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:06:41.220+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:06:41.224+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:06:41.224+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T20:06:41.231+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:06:41.231+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T20:06:41.244+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2025-06-15T20:14:31.678+0100] {processor.py:161} INFO - Started process (PID=537668) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:14:31.679+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T20:14:31.680+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:14:31.680+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:14:31.685+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:14:31.691+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:14:31.691+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T20:14:31.700+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:14:31.700+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T20:14:31.716+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2025-06-15T20:15:33.107+0100] {processor.py:161} INFO - Started process (PID=539044) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:15:33.108+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T20:15:33.109+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:15:33.109+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:15:33.112+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:15:33.154+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:15:33.154+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T20:15:33.159+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:15:33.159+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T20:15:33.171+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-06-15T20:24:38.837+0100] {processor.py:161} INFO - Started process (PID=545651) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:24:38.838+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T20:24:38.840+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:24:38.839+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:24:38.845+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:24:38.851+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:24:38.851+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T20:24:38.861+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:24:38.860+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T20:24:38.875+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.044 seconds
+[2025-06-15T20:32:05.658+0100] {processor.py:161} INFO - Started process (PID=551892) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:32:05.663+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T20:32:05.664+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:32:05.664+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:32:05.667+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T20:32:05.672+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:32:05.672+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T20:32:05.679+0100] {logging_mixin.py:188} INFO - [2025-06-15T20:32:05.679+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T20:32:05.691+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.036 seconds
+[2025-06-15T21:00:20.527+0100] {processor.py:161} INFO - Started process (PID=564421) to work on /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T21:00:20.528+0100] {processor.py:830} INFO - Processing file /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-06-15T21:00:20.529+0100] {logging_mixin.py:188} INFO - [2025-06-15T21:00:20.529+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T21:00:20.532+0100] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-06-15T21:00:20.536+0100] {logging_mixin.py:188} INFO - [2025-06-15T21:00:20.536+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T21:00:20.544+0100] {logging_mixin.py:188} INFO - [2025-06-15T21:00:20.544+0100] {dag.py:3947} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-06-15T21:00:20.556+0100] {processor.py:183} INFO - Processing /home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/example_dags/tutorial_dag.py took 0.031 seconds

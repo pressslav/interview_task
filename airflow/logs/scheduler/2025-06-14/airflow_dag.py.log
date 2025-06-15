@@ -1,0 +1,511 @@
+[2025-06-14T19:51:20.967+0100] {processor.py:161} INFO - Started process (PID=71262) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:51:20.967+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T19:51:20.968+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:51:20.968+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:51:20.971+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:51:21.060+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:51:21.060+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T19:51:21.064+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:51:21.064+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T19:51:21.075+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.111 seconds
+[2025-06-14T19:52:30.589+0100] {processor.py:161} INFO - Started process (PID=72130) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:52:30.590+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T19:52:30.591+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:52:30.591+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:52:30.594+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:52:30.604+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:52:30.604+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T19:52:30.653+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:52:30.653+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T19:52:30.666+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.080 seconds
+[2025-06-14T19:54:34.427+0100] {processor.py:161} INFO - Started process (PID=72980) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:54:34.428+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T19:54:34.429+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:54:34.429+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:54:34.432+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:54:34.522+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:54:34.522+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T19:54:34.526+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:54:34.526+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T19:54:34.537+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.113 seconds
+[2025-06-14T19:56:12.963+0100] {processor.py:161} INFO - Started process (PID=73905) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:56:12.964+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T19:56:12.965+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:56:12.964+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:56:12.969+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:56:13.066+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:56:13.066+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T19:56:13.070+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:56:13.070+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T19:56:13.082+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.122 seconds
+[2025-06-14T19:58:43.313+0100] {processor.py:161} INFO - Started process (PID=75089) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:58:43.318+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T19:58:43.319+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:58:43.319+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:58:43.323+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:58:43.365+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:58:43.364+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T19:58:43.411+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:58:43.411+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T19:58:43.424+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.114 seconds
+[2025-06-14T19:59:58.998+0100] {processor.py:161} INFO - Started process (PID=75990) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:59:59.004+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T19:59:59.005+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:59:59.005+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:59:59.008+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T19:59:59.016+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:59:59.016+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T19:59:59.068+0100] {logging_mixin.py:188} INFO - [2025-06-14T19:59:59.068+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T19:59:59.079+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.084 seconds
+[2025-06-14T20:01:10.366+0100] {processor.py:161} INFO - Started process (PID=77310) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:01:10.367+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:01:10.368+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:01:10.368+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:01:10.371+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:01:10.379+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:01:10.379+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:01:10.385+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:01:10.385+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:01:10.396+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:02:13.762+0100] {processor.py:161} INFO - Started process (PID=78185) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:02:13.767+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:02:13.768+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:02:13.767+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:02:13.771+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:02:13.780+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:02:13.779+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:02:13.785+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:02:13.785+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:02:13.797+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.038 seconds
+[2025-06-14T20:03:20.884+0100] {processor.py:161} INFO - Started process (PID=78982) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:03:20.885+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:03:20.886+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:03:20.885+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:03:20.890+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:03:20.899+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:03:20.898+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:03:20.904+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:03:20.904+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:03:20.916+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.036 seconds
+[2025-06-14T20:04:19.092+0100] {processor.py:161} INFO - Started process (PID=79461) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:04:19.097+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:04:19.098+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:04:19.098+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:04:19.101+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:04:19.110+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:04:19.110+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:04:19.116+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:04:19.115+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:04:19.128+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T20:05:26.683+0100] {processor.py:161} INFO - Started process (PID=80240) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:05:26.684+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:05:26.684+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:05:26.684+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:05:26.688+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:05:26.696+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:05:26.696+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:05:26.702+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:05:26.702+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:05:26.714+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.035 seconds
+[2025-06-14T20:06:26.389+0100] {processor.py:161} INFO - Started process (PID=80547) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:06:26.395+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:06:26.395+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:06:26.395+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:06:26.400+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:06:26.408+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:06:26.408+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:06:26.414+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:06:26.414+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:06:26.426+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.040 seconds
+[2025-06-14T20:07:28.153+0100] {processor.py:161} INFO - Started process (PID=80870) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:07:28.158+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:07:28.158+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:07:28.158+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:07:28.162+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:07:28.170+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:07:28.170+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:07:28.176+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:07:28.175+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:07:28.188+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.038 seconds
+[2025-06-14T20:08:24.688+0100] {processor.py:161} INFO - Started process (PID=81222) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:08:24.689+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:08:24.690+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:08:24.689+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:08:24.693+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:08:24.701+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:08:24.701+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:08:24.706+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:08:24.706+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:08:24.717+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.034 seconds
+[2025-06-14T20:09:27.288+0100] {processor.py:161} INFO - Started process (PID=81575) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:09:27.293+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:09:27.294+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:09:27.294+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:09:27.298+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:09:27.308+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:09:27.308+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:09:27.314+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:09:27.314+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:09:27.327+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.043 seconds
+[2025-06-14T20:10:28.746+0100] {processor.py:161} INFO - Started process (PID=81891) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:10:28.747+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:10:28.747+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:10:28.747+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:10:28.751+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:10:28.759+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:10:28.759+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:10:28.764+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:10:28.764+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:10:28.776+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.034 seconds
+[2025-06-14T20:11:32.423+0100] {processor.py:161} INFO - Started process (PID=82219) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:11:32.424+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:11:32.425+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:11:32.424+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:11:32.428+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:11:32.438+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:11:32.438+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:11:32.444+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:11:32.444+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:11:32.458+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T20:12:31.943+0100] {processor.py:161} INFO - Started process (PID=82526) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:12:31.944+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:12:31.945+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:12:31.945+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:12:31.948+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:12:31.956+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:12:31.956+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:12:31.961+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:12:31.961+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:12:31.973+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:13:30.656+0100] {processor.py:161} INFO - Started process (PID=82892) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:13:30.656+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:13:30.657+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:13:30.657+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:13:30.660+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:13:30.669+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:13:30.669+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:13:30.675+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:13:30.675+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:13:30.685+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:14:31.612+0100] {processor.py:161} INFO - Started process (PID=83230) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:14:31.613+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:14:31.614+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:14:31.613+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:14:31.617+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:14:31.625+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:14:31.625+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:14:31.630+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:14:31.630+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:14:31.642+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.034 seconds
+[2025-06-14T20:15:29.806+0100] {processor.py:161} INFO - Started process (PID=83531) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:15:29.806+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:15:29.807+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:15:29.807+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:15:29.810+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:15:29.818+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:15:29.818+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:15:29.824+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:15:29.824+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:15:29.834+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.031 seconds
+[2025-06-14T20:16:31.140+0100] {processor.py:161} INFO - Started process (PID=83851) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:16:31.145+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:16:31.146+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:16:31.146+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:16:31.150+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:16:31.159+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:16:31.159+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:16:31.166+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:16:31.166+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:16:31.177+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.040 seconds
+[2025-06-14T20:17:32.649+0100] {processor.py:161} INFO - Started process (PID=84166) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:17:32.650+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:17:32.650+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:17:32.650+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:17:32.654+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:17:32.662+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:17:32.661+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:17:32.667+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:17:32.667+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:17:32.678+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:18:32.008+0100] {processor.py:161} INFO - Started process (PID=84532) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:18:32.013+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:18:32.014+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:18:32.013+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:18:32.017+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:18:32.026+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:18:32.025+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:18:32.031+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:18:32.031+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:18:32.042+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.038 seconds
+[2025-06-14T20:19:34.154+0100] {processor.py:161} INFO - Started process (PID=84888) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:19:34.159+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:19:34.160+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:19:34.160+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:19:34.164+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:19:34.172+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:19:34.172+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:19:34.178+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:19:34.177+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:19:34.190+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.040 seconds
+[2025-06-14T20:20:38.013+0100] {processor.py:161} INFO - Started process (PID=85209) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:20:38.014+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:20:38.014+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:20:38.014+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:20:38.018+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:20:38.026+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:20:38.026+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:20:38.032+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:20:38.032+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:20:38.043+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:21:33.798+0100] {processor.py:161} INFO - Started process (PID=85508) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:21:33.803+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:21:33.804+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:21:33.804+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:21:33.808+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:21:33.816+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:21:33.816+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:21:33.822+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:21:33.821+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:21:33.834+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T20:22:33.040+0100] {processor.py:161} INFO - Started process (PID=85810) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:22:33.040+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:22:33.041+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:22:33.041+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:22:33.044+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:22:33.053+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:22:33.053+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:22:33.058+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:22:33.058+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:22:33.070+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:23:31.578+0100] {processor.py:161} INFO - Started process (PID=86172) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:23:31.579+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:23:31.580+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:23:31.579+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:23:31.583+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:23:31.591+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:23:31.591+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:23:31.597+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:23:31.597+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:23:31.608+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:24:32.377+0100] {processor.py:161} INFO - Started process (PID=86509) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:24:32.378+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:24:32.379+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:24:32.378+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:24:32.382+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:24:32.391+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:24:32.390+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:24:32.396+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:24:32.396+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:24:32.408+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.034 seconds
+[2025-06-14T20:25:35.456+0100] {processor.py:161} INFO - Started process (PID=86830) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:25:35.462+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:25:35.463+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:25:35.463+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:25:35.467+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:25:35.476+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:25:35.475+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:25:35.481+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:25:35.481+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:25:35.492+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.040 seconds
+[2025-06-14T20:26:32.890+0100] {processor.py:161} INFO - Started process (PID=87129) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:26:32.890+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:26:32.891+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:26:32.891+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:26:32.894+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:26:32.902+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:26:32.902+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:26:32.908+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:26:32.907+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:26:32.918+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.032 seconds
+[2025-06-14T20:27:33.565+0100] {processor.py:161} INFO - Started process (PID=87442) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:27:33.571+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:27:33.571+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:27:33.571+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:27:33.575+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:27:33.583+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:27:33.583+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:27:33.589+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:27:33.589+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:27:33.600+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.038 seconds
+[2025-06-14T20:28:27.327+0100] {processor.py:161} INFO - Started process (PID=87789) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:28:27.333+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:28:27.334+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:28:27.333+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:28:27.337+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:28:27.346+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:28:27.346+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:28:27.352+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:28:27.351+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:28:27.364+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.040 seconds
+[2025-06-14T20:29:31.152+0100] {processor.py:161} INFO - Started process (PID=88149) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:29:31.157+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:29:31.158+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:29:31.158+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:29:31.162+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:29:31.170+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:29:31.170+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:29:31.175+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:29:31.175+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:29:31.187+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.040 seconds
+[2025-06-14T20:30:33.326+0100] {processor.py:161} INFO - Started process (PID=88463) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:30:33.327+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:30:33.327+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:30:33.327+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:30:33.330+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:30:33.339+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:30:33.339+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:30:33.344+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:30:33.344+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:30:33.356+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.034 seconds
+[2025-06-14T20:31:34.896+0100] {processor.py:161} INFO - Started process (PID=88776) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:31:34.897+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:31:34.897+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:31:34.897+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:31:34.900+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:31:34.908+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:31:34.908+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:31:34.914+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:31:34.914+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:31:34.926+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:32:33.393+0100] {processor.py:161} INFO - Started process (PID=89083) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:32:33.399+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:32:33.400+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:32:33.399+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:32:33.405+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:32:33.413+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:32:33.413+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:32:33.419+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:32:33.419+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:32:33.430+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.040 seconds
+[2025-06-14T20:33:33.717+0100] {processor.py:161} INFO - Started process (PID=89457) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:33:33.722+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:33:33.723+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:33:33.722+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:33:33.726+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:33:33.734+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:33:33.734+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:33:33.740+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:33:33.739+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:33:33.752+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T20:34:30.227+0100] {processor.py:161} INFO - Started process (PID=89778) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:34:30.228+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:34:30.228+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:34:30.228+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:34:30.231+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:34:30.242+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:34:30.241+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:34:30.247+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:34:30.247+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:34:30.258+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.035 seconds
+[2025-06-14T20:35:30.712+0100] {processor.py:161} INFO - Started process (PID=90090) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:35:30.713+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:35:30.714+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:35:30.714+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:35:30.717+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:35:30.726+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:35:30.726+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:35:30.731+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:35:30.731+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:35:30.742+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.034 seconds
+[2025-06-14T20:36:31.335+0100] {processor.py:161} INFO - Started process (PID=90403) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:36:31.336+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:36:31.337+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:36:31.337+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:36:31.341+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:36:31.363+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:36:31.362+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:36:31.371+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:36:31.371+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:36:31.385+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.053 seconds
+[2025-06-14T20:37:32.131+0100] {processor.py:161} INFO - Started process (PID=90712) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:37:32.137+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:37:32.137+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:37:32.137+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:37:32.142+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:37:32.150+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:37:32.150+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:37:32.155+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:37:32.155+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:37:32.167+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T20:38:30.074+0100] {processor.py:161} INFO - Started process (PID=91077) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:38:30.079+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:38:30.080+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:38:30.080+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:38:30.086+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:38:30.094+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:38:30.094+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:38:30.100+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:38:30.099+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:38:30.112+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.042 seconds
+[2025-06-14T20:39:29.469+0100] {processor.py:161} INFO - Started process (PID=91415) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:39:29.474+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:39:29.475+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:39:29.475+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:39:29.478+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:39:29.486+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:39:29.485+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:39:29.491+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:39:29.491+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:39:29.502+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.036 seconds
+[2025-06-14T20:40:33.539+0100] {processor.py:161} INFO - Started process (PID=91740) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:40:33.544+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:40:33.545+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:40:33.545+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:40:33.549+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:40:33.557+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:40:33.557+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:40:33.562+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:40:33.562+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:40:33.574+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T20:41:36.205+0100] {processor.py:161} INFO - Started process (PID=92059) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:41:36.211+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:41:36.211+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:41:36.211+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:41:36.215+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:41:36.223+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:41:36.223+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:41:36.228+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:41:36.228+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:41:36.240+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T20:42:35.779+0100] {processor.py:161} INFO - Started process (PID=92366) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:42:35.785+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:42:35.786+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:42:35.785+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:42:35.789+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:42:35.797+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:42:35.797+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:42:35.802+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:42:35.802+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:42:35.813+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.036 seconds
+[2025-06-14T20:43:34.331+0100] {processor.py:161} INFO - Started process (PID=92733) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:43:34.332+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:43:34.332+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:43:34.332+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:43:34.336+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:43:34.344+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:43:34.344+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:43:34.349+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:43:34.349+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:43:34.361+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.034 seconds
+[2025-06-14T20:44:34.839+0100] {processor.py:161} INFO - Started process (PID=93074) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:44:34.844+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:44:34.845+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:44:34.845+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:44:34.848+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:44:34.856+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:44:34.856+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:44:34.862+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:44:34.862+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:44:34.873+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.037 seconds
+[2025-06-14T20:45:36.496+0100] {processor.py:161} INFO - Started process (PID=93388) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:45:36.497+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:45:36.498+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:45:36.497+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:45:36.501+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:45:36.510+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:45:36.510+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:45:36.516+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:45:36.516+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:45:36.529+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.036 seconds
+[2025-06-14T20:46:35.210+0100] {processor.py:161} INFO - Started process (PID=93694) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:46:35.211+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:46:35.211+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:46:35.211+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:46:35.214+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:46:35.223+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:46:35.222+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:46:35.228+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:46:35.228+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:46:35.240+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:47:36.817+0100] {processor.py:161} INFO - Started process (PID=94009) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:47:36.822+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:47:36.823+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:47:36.823+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:47:36.827+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:47:36.836+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:47:36.836+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:47:36.842+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:47:36.842+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:47:36.853+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.040 seconds
+[2025-06-14T20:48:37.231+0100] {processor.py:161} INFO - Started process (PID=94404) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:48:37.232+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:48:37.233+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:48:37.233+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:48:37.236+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:48:37.244+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:48:37.244+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:48:37.250+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:48:37.250+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:48:37.261+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:49:41.848+0100] {processor.py:161} INFO - Started process (PID=94739) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:49:41.849+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:49:41.850+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:49:41.849+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:49:41.853+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:49:41.861+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:49:41.861+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:49:41.866+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:49:41.866+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:49:41.877+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.032 seconds
+[2025-06-14T20:50:41.512+0100] {processor.py:161} INFO - Started process (PID=95052) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:50:41.517+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:50:41.518+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:50:41.518+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:50:41.521+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:50:41.529+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:50:41.529+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:50:41.535+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:50:41.535+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:50:41.545+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.037 seconds
+[2025-06-14T20:51:42.447+0100] {processor.py:161} INFO - Started process (PID=95363) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:51:42.448+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:51:42.449+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:51:42.449+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:51:42.452+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:51:42.461+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:51:42.461+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:51:42.467+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:51:42.467+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:51:42.478+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T20:52:42.530+0100] {processor.py:161} INFO - Started process (PID=95674) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:52:42.535+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:52:42.536+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:52:42.536+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:52:42.539+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:52:42.549+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:52:42.548+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:52:42.555+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:52:42.555+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:52:42.568+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.041 seconds
+[2025-06-14T20:53:42.319+0100] {processor.py:161} INFO - Started process (PID=96064) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:53:42.325+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:53:42.325+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:53:42.325+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:53:42.329+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:53:42.338+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:53:42.337+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:53:42.343+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:53:42.343+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:53:42.354+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T20:54:37.988+0100] {processor.py:161} INFO - Started process (PID=96361) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:54:37.993+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:54:37.994+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:54:37.994+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:54:37.997+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:54:38.006+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:54:38.006+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:54:38.012+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:54:38.011+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:54:38.023+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T20:55:40.833+0100] {processor.py:161} INFO - Started process (PID=96678) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:55:40.834+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:55:40.835+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:55:40.835+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:55:40.839+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:55:40.849+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:55:40.849+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:55:40.854+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:55:40.854+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:55:40.866+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.036 seconds
+[2025-06-14T20:56:37.877+0100] {processor.py:161} INFO - Started process (PID=96975) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:56:37.883+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:56:37.883+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:56:37.883+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:56:37.886+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:56:37.894+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:56:37.894+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:56:37.900+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:56:37.900+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:56:37.910+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.036 seconds
+[2025-06-14T20:57:39.649+0100] {processor.py:161} INFO - Started process (PID=97295) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:57:39.655+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:57:39.655+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:57:39.655+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:57:39.659+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:57:39.667+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:57:39.667+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:57:39.672+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:57:39.672+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:57:39.685+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.038 seconds
+[2025-06-14T20:58:32.785+0100] {processor.py:161} INFO - Started process (PID=97647) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:58:32.790+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:58:32.791+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:58:32.791+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:58:32.794+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:58:32.803+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:58:32.803+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:58:32.808+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:58:32.808+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:58:32.819+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.038 seconds
+[2025-06-14T20:59:30.404+0100] {processor.py:161} INFO - Started process (PID=97972) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:59:30.409+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T20:59:30.410+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:59:30.410+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:59:30.413+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T20:59:30.421+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:59:30.421+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T20:59:30.426+0100] {logging_mixin.py:188} INFO - [2025-06-14T20:59:30.426+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T20:59:30.438+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.038 seconds
+[2025-06-14T21:00:30.797+0100] {processor.py:161} INFO - Started process (PID=98286) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:00:30.798+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T21:00:30.799+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:00:30.798+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:00:30.802+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:00:30.810+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:00:30.810+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T21:00:30.816+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:00:30.816+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T21:00:30.829+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.036 seconds
+[2025-06-14T21:01:30.125+0100] {processor.py:161} INFO - Started process (PID=98592) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:01:30.130+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T21:01:30.131+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:01:30.131+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:01:30.134+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:01:30.142+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:01:30.142+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T21:01:30.148+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:01:30.148+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T21:01:30.160+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.039 seconds
+[2025-06-14T21:02:32.091+0100] {processor.py:161} INFO - Started process (PID=98906) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:02:32.092+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T21:02:32.092+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:02:32.092+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:02:32.096+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:02:32.104+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:02:32.104+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T21:02:32.109+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:02:32.109+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T21:02:32.120+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.032 seconds
+[2025-06-14T21:03:37.718+0100] {processor.py:161} INFO - Started process (PID=99311) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:03:37.723+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T21:03:37.724+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:03:37.724+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:03:37.727+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:03:37.735+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:03:37.735+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T21:03:37.740+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:03:37.740+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T21:03:37.751+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.036 seconds
+[2025-06-14T21:04:40.273+0100] {processor.py:161} INFO - Started process (PID=99705) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:04:40.274+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T21:04:40.274+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:04:40.274+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:04:40.277+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:04:40.286+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:04:40.286+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T21:04:40.292+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:04:40.291+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T21:04:40.304+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.035 seconds
+[2025-06-14T21:05:42.695+0100] {processor.py:161} INFO - Started process (PID=100027) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:05:42.696+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T21:05:42.696+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:05:42.696+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:05:42.700+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:05:42.708+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:05:42.708+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T21:05:42.714+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:05:42.714+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T21:05:42.725+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.033 seconds
+[2025-06-14T21:06:42.422+0100] {processor.py:161} INFO - Started process (PID=100425) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:06:42.427+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T21:06:42.428+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:06:42.428+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:06:42.431+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:06:42.484+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:06:42.484+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T21:06:42.491+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:06:42.491+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T21:06:42.507+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.088 seconds
+[2025-06-14T21:07:40.620+0100] {processor.py:161} INFO - Started process (PID=100777) to work on /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:07:40.626+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py for tasks to queue
+[2025-06-14T21:07:40.627+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:07:40.627+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:07:40.632+0100] {processor.py:840} INFO - DAG(s) 'example_model_selection_dag' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py
+[2025-06-14T21:07:40.641+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:07:40.641+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-14T21:07:40.648+0100] {logging_mixin.py:188} INFO - [2025-06-14T21:07:40.647+0100] {dag.py:3947} INFO - Setting next_dagrun for example_model_selection_dag to None, run_after=None
+[2025-06-14T21:07:40.660+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/airflow_dag.py took 0.043 seconds

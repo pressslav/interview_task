@@ -1,0 +1,40 @@
+[2025-06-15T00:12:00.068+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-15T00:12:00.075+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: customer_churn_training_dag.compare_accuracies manual__2025-06-14T23:11:45.296087+00:00 [queued]>
+[2025-06-15T00:12:00.078+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: customer_churn_training_dag.compare_accuracies manual__2025-06-14T23:11:45.296087+00:00 [queued]>
+[2025-06-15T00:12:00.078+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-15T00:12:00.086+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): compare_accuracies> on 2025-06-14 23:11:45.296087+00:00
+[2025-06-15T00:12:00.089+0100] {standard_task_runner.py:64} INFO - Started process 201466 to run task
+[2025-06-15T00:12:00.091+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'customer_churn_training_dag', 'compare_accuracies', 'manual__2025-06-14T23:11:45.296087+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmp4fze0zx0']
+[2025-06-15T00:12:00.091+0100] {standard_task_runner.py:91} INFO - Job 108: Subtask compare_accuracies
+[2025-06-15T00:12:00.110+0100] {task_command.py:426} INFO - Running <TaskInstance: customer_churn_training_dag.compare_accuracies manual__2025-06-14T23:11:45.296087+00:00 [running]> on host neonm.
+[2025-06-15T00:12:00.146+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='customer_churn_training_dag' AIRFLOW_CTX_TASK_ID='compare_accuracies' AIRFLOW_CTX_EXECUTION_DATE='2025-06-14T23:11:45.296087+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-14T23:11:45.296087+00:00'
+[2025-06-15T00:12:00.147+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-15T00:12:00.150+0100] {logging_mixin.py:188} INFO - Retrieved Run ID for small dataset: 🧪 View experiment at: http://127.0.0.1:5000/#/experiments/1
+[2025-06-15T00:12:00.150+0100] {logging_mixin.py:188} INFO - Retrieved Run ID for full dataset:  🧪 View experiment at: http://127.0.0.1:5000/#/experiments/1
+[2025-06-15T00:12:00.151+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-15T00:12:00.151+0100] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/press/coding/acronis_interview_v02/airflow/dags/dag.py", line 32, in _get_accuracies_from_mlflow
+    small_accuracy = client.get_run(small_run_id).data.metrics['accuracy']
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/mlflow/tracking/client.py", line 267, in get_run
+    return self._tracking_client.get_run(run_id)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/mlflow/tracking/_tracking_service/client.py", line 97, in get_run
+    _validate_run_id(run_id)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/mlflow/utils/validation.py", line 388, in _validate_run_id
+    raise MlflowException(invalid_value(path, run_id), error_code=INVALID_PARAMETER_VALUE)
+mlflow.exceptions.MlflowException: Invalid value "\ud83e\uddea View experiment at: http://127.0.0.1:5000/#/experiments/1" for parameter 'run_id' supplied.
+[2025-06-15T00:12:00.154+0100] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=customer_churn_training_dag, task_id=compare_accuracies, run_id=manual__2025-06-14T23:11:45.296087+00:00, execution_date=20250614T231145, start_date=20250614T231200, end_date=20250614T231200
+[2025-06-15T00:12:00.160+0100] {standard_task_runner.py:110} ERROR - Failed to execute job 108 for task compare_accuracies (Invalid value "\ud83e\uddea View experiment at: http://127.0.0.1:5000/#/experiments/1" for parameter 'run_id' supplied.; 201466)
+[2025-06-15T00:12:00.183+0100] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-06-15T00:12:00.188+0100] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-15T00:12:00.188+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

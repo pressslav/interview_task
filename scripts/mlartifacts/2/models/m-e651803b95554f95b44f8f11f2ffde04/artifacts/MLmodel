@@ -1,0 +1,931 @@
+artifact_path: mlflow-artifacts:/2/models/m-e651803b95554f95b44f8f11f2ffde04/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.23
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.0
+model_id: m-e651803b95554f95b44f8f11f2ffde04
+model_size_bytes: 1855753
+model_uuid: m-e651803b95554f95b44f8f11f2ffde04
+prompts: null
+run_id: d17507c28759436c95b41d9c763e5d11
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Age", "required": true}, {"type": "double",
+    "name": "Number of Dependents", "required": true}, {"type": "double", "name":
+    "Zip Code", "required": true}, {"type": "double", "name": "Latitude", "required":
+    true}, {"type": "double", "name": "Longitude", "required": true}, {"type": "double",
+    "name": "Number of Referrals", "required": true}, {"type": "double", "name": "Tenure
+    in Months", "required": true}, {"type": "double", "name": "Avg Monthly Long Distance
+    Charges", "required": true}, {"type": "double", "name": "Avg Monthly GB Download",
+    "required": false}, {"type": "double", "name": "Monthly Charge", "required": true},
+    {"type": "double", "name": "Total Charges", "required": true}, {"type": "double",
+    "name": "Total Refunds", "required": true}, {"type": "double", "name": "Total
+    Extra Data Charges", "required": true}, {"type": "double", "name": "Total Long
+    Distance Charges", "required": true}, {"type": "double", "name": "Total Revenue",
+    "required": true}, {"type": "boolean", "name": "Gender_Male", "required": true},
+    {"type": "boolean", "name": "Married_Yes", "required": true}, {"type": "boolean",
+    "name": "City_Acton", "required": true}, {"type": "boolean", "name": "City_Adelanto",
+    "required": true}, {"type": "boolean", "name": "City_Adin", "required": true},
+    {"type": "boolean", "name": "City_Agoura Hills", "required": true}, {"type": "boolean",
+    "name": "City_Aguanga", "required": true}, {"type": "boolean", "name": "City_Ahwahnee",
+    "required": true}, {"type": "boolean", "name": "City_Alameda", "required": true},
+    {"type": "boolean", "name": "City_Alamo", "required": true}, {"type": "boolean",
+    "name": "City_Albany", "required": true}, {"type": "boolean", "name": "City_Albion",
+    "required": true}, {"type": "boolean", "name": "City_Alderpoint", "required":
+    true}, {"type": "boolean", "name": "City_Alhambra", "required": true}, {"type":
+    "boolean", "name": "City_Aliso Viejo", "required": true}, {"type": "boolean",
+    "name": "City_Alleghany", "required": true}, {"type": "boolean", "name": "City_Alpaugh",
+    "required": true}, {"type": "boolean", "name": "City_Alpine", "required": true},
+    {"type": "boolean", "name": "City_Alta", "required": true}, {"type": "boolean",
+    "name": "City_Altadena", "required": true}, {"type": "boolean", "name": "City_Alturas",
+    "required": true}, {"type": "boolean", "name": "City_Alviso", "required": true},
+    {"type": "boolean", "name": "City_Amador City", "required": true}, {"type": "boolean",
+    "name": "City_Amboy", "required": true}, {"type": "boolean", "name": "City_Anaheim",
+    "required": true}, {"type": "boolean", "name": "City_Anderson", "required": true},
+    {"type": "boolean", "name": "City_Angels Camp", "required": true}, {"type": "boolean",
+    "name": "City_Angelus Oaks", "required": true}, {"type": "boolean", "name": "City_Angwin",
+    "required": true}, {"type": "boolean", "name": "City_Annapolis", "required": true},
+    {"type": "boolean", "name": "City_Antelope", "required": true}, {"type": "boolean",
+    "name": "City_Antioch", "required": true}, {"type": "boolean", "name": "City_Anza",
+    "required": true}, {"type": "boolean", "name": "City_Apple Valley", "required":
+    true}, {"type": "boolean", "name": "City_Applegate", "required": true}, {"type":
+    "boolean", "name": "City_Aptos", "required": true}, {"type": "boolean", "name":
+    "City_Arbuckle", "required": true}, {"type": "boolean", "name": "City_Arcadia",
+    "required": true}, {"type": "boolean", "name": "City_Arcata", "required": true},
+    {"type": "boolean", "name": "City_Armona", "required": true}, {"type": "boolean",
+    "name": "City_Arnold", "required": true}, {"type": "boolean", "name": "City_Aromas",
+    "required": true}, {"type": "boolean", "name": "City_Arroyo Grande", "required":
+    true}, {"type": "boolean", "name": "City_Artesia", "required": true}, {"type":
+    "boolean", "name": "City_Arvin", "required": true}, {"type": "boolean", "name":
+    "City_Atascadero", "required": true}, {"type": "boolean", "name": "City_Atherton",
+    "required": true}, {"type": "boolean", "name": "City_Atwater", "required": true},
+    {"type": "boolean", "name": "City_Auberry", "required": true}, {"type": "boolean",
+    "name": "City_Auburn", "required": true}, {"type": "boolean", "name": "City_Avalon",
+    "required": true}, {"type": "boolean", "name": "City_Avenal", "required": true},
+    {"type": "boolean", "name": "City_Avery", "required": true}, {"type": "boolean",
+    "name": "City_Avila Beach", "required": true}, {"type": "boolean", "name": "City_Azusa",
+    "required": true}, {"type": "boolean", "name": "City_Badger", "required": true},
+    {"type": "boolean", "name": "City_Baker", "required": true}, {"type": "boolean",
+    "name": "City_Bakersfield", "required": true}, {"type": "boolean", "name": "City_Baldwin
+    Park", "required": true}, {"type": "boolean", "name": "City_Ballico", "required":
+    true}, {"type": "boolean", "name": "City_Bangor", "required": true}, {"type":
+    "boolean", "name": "City_Banning", "required": true}, {"type": "boolean", "name":
+    "City_Barstow", "required": true}, {"type": "boolean", "name": "City_Bass Lake",
+    "required": true}, {"type": "boolean", "name": "City_Bayside", "required": true},
+    {"type": "boolean", "name": "City_Beale Afb", "required": true}, {"type": "boolean",
+    "name": "City_Beaumont", "required": true}, {"type": "boolean", "name": "City_Bell",
+    "required": true}, {"type": "boolean", "name": "City_Bella Vista", "required":
+    true}, {"type": "boolean", "name": "City_Bellflower", "required": true}, {"type":
+    "boolean", "name": "City_Belmont", "required": true}, {"type": "boolean", "name":
+    "City_Belvedere Tiburon", "required": true}, {"type": "boolean", "name": "City_Ben
+    Lomond", "required": true}, {"type": "boolean", "name": "City_Benicia", "required":
+    true}, {"type": "boolean", "name": "City_Benton", "required": true}, {"type":
+    "boolean", "name": "City_Berkeley", "required": true}, {"type": "boolean", "name":
+    "City_Berry Creek", "required": true}, {"type": "boolean", "name": "City_Bethel
+    Island", "required": true}, {"type": "boolean", "name": "City_Beverly Hills",
+    "required": true}, {"type": "boolean", "name": "City_Bieber", "required": true},
+    {"type": "boolean", "name": "City_Big Bar", "required": true}, {"type": "boolean",
+    "name": "City_Big Bear City", "required": true}, {"type": "boolean", "name": "City_Big
+    Bear Lake", "required": true}, {"type": "boolean", "name": "City_Big Bend", "required":
+    true}, {"type": "boolean", "name": "City_Big Creek", "required": true}, {"type":
+    "boolean", "name": "City_Big Oak Flat", "required": true}, {"type": "boolean",
+    "name": "City_Big Pine", "required": true}, {"type": "boolean", "name": "City_Biggs",
+    "required": true}, {"type": "boolean", "name": "City_Biola", "required": true},
+    {"type": "boolean", "name": "City_Birds Landing", "required": true}, {"type":
+    "boolean", "name": "City_Bishop", "required": true}, {"type": "boolean", "name":
+    "City_Blairsden Graeagle", "required": true}, {"type": "boolean", "name": "City_Blocksburg",
+    "required": true}, {"type": "boolean", "name": "City_Bloomington", "required":
+    true}, {"type": "boolean", "name": "City_Blue Lake", "required": true}, {"type":
+    "boolean", "name": "City_Blythe", "required": true}, {"type": "boolean", "name":
+    "City_Bodega", "required": true}, {"type": "boolean", "name": "City_Bodega Bay",
+    "required": true}, {"type": "boolean", "name": "City_Bodfish", "required": true},
+    {"type": "boolean", "name": "City_Bolinas", "required": true}, {"type": "boolean",
+    "name": "City_Bonita", "required": true}, {"type": "boolean", "name": "City_Bonsall",
+    "required": true}, {"type": "boolean", "name": "City_Boonville", "required": true},
+    {"type": "boolean", "name": "City_Boron", "required": true}, {"type": "boolean",
+    "name": "City_Borrego Springs", "required": true}, {"type": "boolean", "name":
+    "City_Boulder Creek", "required": true}, {"type": "boolean", "name": "City_Boulevard",
+    "required": true}, {"type": "boolean", "name": "City_Bradley", "required": true},
+    {"type": "boolean", "name": "City_Branscomb", "required": true}, {"type": "boolean",
+    "name": "City_Brawley", "required": true}, {"type": "boolean", "name": "City_Brea",
+    "required": true}, {"type": "boolean", "name": "City_Brentwood", "required": true},
+    {"type": "boolean", "name": "City_Bridgeport", "required": true}, {"type": "boolean",
+    "name": "City_Bridgeville", "required": true}, {"type": "boolean", "name": "City_Brisbane",
+    "required": true}, {"type": "boolean", "name": "City_Brookdale", "required": true},
+    {"type": "boolean", "name": "City_Brooks", "required": true}, {"type": "boolean",
+    "name": "City_Browns Valley", "required": true}, {"type": "boolean", "name": "City_Brownsville",
+    "required": true}, {"type": "boolean", "name": "City_Buellton", "required": true},
+    {"type": "boolean", "name": "City_Buena Park", "required": true}, {"type": "boolean",
+    "name": "City_Burbank", "required": true}, {"type": "boolean", "name": "City_Burlingame",
+    "required": true}, {"type": "boolean", "name": "City_Burney", "required": true},
+    {"type": "boolean", "name": "City_Burnt Ranch", "required": true}, {"type": "boolean",
+    "name": "City_Burson", "required": true}, {"type": "boolean", "name": "City_Butte
+    City", "required": true}, {"type": "boolean", "name": "City_Buttonwillow", "required":
+    true}, {"type": "boolean", "name": "City_Byron", "required": true}, {"type": "boolean",
+    "name": "City_Cabazon", "required": true}, {"type": "boolean", "name": "City_Calabasas",
+    "required": true}, {"type": "boolean", "name": "City_Calexico", "required": true},
+    {"type": "boolean", "name": "City_Caliente", "required": true}, {"type": "boolean",
+    "name": "City_California City", "required": true}, {"type": "boolean", "name":
+    "City_California Hot Springs", "required": true}, {"type": "boolean", "name":
+    "City_Calimesa", "required": true}, {"type": "boolean", "name": "City_Calipatria",
+    "required": true}, {"type": "boolean", "name": "City_Calistoga", "required": true},
+    {"type": "boolean", "name": "City_Callahan", "required": true}, {"type": "boolean",
+    "name": "City_Calpine", "required": true}, {"type": "boolean", "name": "City_Camarillo",
+    "required": true}, {"type": "boolean", "name": "City_Cambria", "required": true},
+    {"type": "boolean", "name": "City_Camino", "required": true}, {"type": "boolean",
+    "name": "City_Camp Nelson", "required": true}, {"type": "boolean", "name": "City_Campbell",
+    "required": true}, {"type": "boolean", "name": "City_Campo", "required": true},
+    {"type": "boolean", "name": "City_Campo Seco", "required": true}, {"type": "boolean",
+    "name": "City_Camptonville", "required": true}, {"type": "boolean", "name": "City_Canby",
+    "required": true}, {"type": "boolean", "name": "City_Canoga Park", "required":
+    true}, {"type": "boolean", "name": "City_Cantua Creek", "required": true}, {"type":
+    "boolean", "name": "City_Canyon Country", "required": true}, {"type": "boolean",
+    "name": "City_Canyon Dam", "required": true}, {"type": "boolean", "name": "City_Capay",
+    "required": true}, {"type": "boolean", "name": "City_Capistrano Beach", "required":
+    true}, {"type": "boolean", "name": "City_Capitola", "required": true}, {"type":
+    "boolean", "name": "City_Cardiff By The Sea", "required": true}, {"type": "boolean",
+    "name": "City_Carlotta", "required": true}, {"type": "boolean", "name": "City_Carlsbad",
+    "required": true}, {"type": "boolean", "name": "City_Carmel", "required": true},
+    {"type": "boolean", "name": "City_Carmel By The Sea", "required": true}, {"type":
+    "boolean", "name": "City_Carmel Valley", "required": true}, {"type": "boolean",
+    "name": "City_Carmichael", "required": true}, {"type": "boolean", "name": "City_Carnelian
+    Bay", "required": true}, {"type": "boolean", "name": "City_Carpinteria", "required":
+    true}, {"type": "boolean", "name": "City_Carson", "required": true}, {"type":
+    "boolean", "name": "City_Caruthers", "required": true}, {"type": "boolean", "name":
+    "City_Casmalia", "required": true}, {"type": "boolean", "name": "City_Caspar",
+    "required": true}, {"type": "boolean", "name": "City_Cassel", "required": true},
+    {"type": "boolean", "name": "City_Castaic", "required": true}, {"type": "boolean",
+    "name": "City_Castella", "required": true}, {"type": "boolean", "name": "City_Castro
+    Valley", "required": true}, {"type": "boolean", "name": "City_Castroville", "required":
+    true}, {"type": "boolean", "name": "City_Cathedral City", "required": true}, {"type":
+    "boolean", "name": "City_Catheys Valley", "required": true}, {"type": "boolean",
+    "name": "City_Cayucos", "required": true}, {"type": "boolean", "name": "City_Cazadero",
+    "required": true}, {"type": "boolean", "name": "City_Cedar Glen", "required":
+    true}, {"type": "boolean", "name": "City_Cedarville", "required": true}, {"type":
+    "boolean", "name": "City_Ceres", "required": true}, {"type": "boolean", "name":
+    "City_Cerritos", "required": true}, {"type": "boolean", "name": "City_Challenge",
+    "required": true}, {"type": "boolean", "name": "City_Chatsworth", "required":
+    true}, {"type": "boolean", "name": "City_Chester", "required": true}, {"type":
+    "boolean", "name": "City_Chico", "required": true}, {"type": "boolean", "name":
+    "City_Chilcoot", "required": true}, {"type": "boolean", "name": "City_Chino",
+    "required": true}, {"type": "boolean", "name": "City_Chino Hills", "required":
+    true}, {"type": "boolean", "name": "City_Chowchilla", "required": true}, {"type":
+    "boolean", "name": "City_Chualar", "required": true}, {"type": "boolean", "name":
+    "City_Chula Vista", "required": true}, {"type": "boolean", "name": "City_Citrus
+    Heights", "required": true}, {"type": "boolean", "name": "City_Claremont", "required":
+    true}, {"type": "boolean", "name": "City_Clarksburg", "required": true}, {"type":
+    "boolean", "name": "City_Clayton", "required": true}, {"type": "boolean", "name":
+    "City_Clearlake", "required": true}, {"type": "boolean", "name": "City_Clearlake
+    Oaks", "required": true}, {"type": "boolean", "name": "City_Clements", "required":
+    true}, {"type": "boolean", "name": "City_Clio", "required": true}, {"type": "boolean",
+    "name": "City_Clipper Mills", "required": true}, {"type": "boolean", "name": "City_Cloverdale",
+    "required": true}, {"type": "boolean", "name": "City_Clovis", "required": true},
+    {"type": "boolean", "name": "City_Coachella", "required": true}, {"type": "boolean",
+    "name": "City_Coalinga", "required": true}, {"type": "boolean", "name": "City_Coarsegold",
+    "required": true}, {"type": "boolean", "name": "City_Cobb", "required": true},
+    {"type": "boolean", "name": "City_Coleville", "required": true}, {"type": "boolean",
+    "name": "City_Colfax", "required": true}, {"type": "boolean", "name": "City_Colton",
+    "required": true}, {"type": "boolean", "name": "City_Columbia", "required": true},
+    {"type": "boolean", "name": "City_Colusa", "required": true}, {"type": "boolean",
+    "name": "City_Comptche", "required": true}, {"type": "boolean", "name": "City_Compton",
+    "required": true}, {"type": "boolean", "name": "City_Concord", "required": true},
+    {"type": "boolean", "name": "City_Cool", "required": true}, {"type": "boolean",
+    "name": "City_Copperopolis", "required": true}, {"type": "boolean", "name": "City_Corcoran",
+    "required": true}, {"type": "boolean", "name": "City_Corning", "required": true},
+    {"type": "boolean", "name": "City_Corona", "required": true}, {"type": "boolean",
+    "name": "City_Corona Del Mar", "required": true}, {"type": "boolean", "name":
+    "City_Coronado", "required": true}, {"type": "boolean", "name": "City_Corte Madera",
+    "required": true}, {"type": "boolean", "name": "City_Costa Mesa", "required":
+    true}, {"type": "boolean", "name": "City_Cotati", "required": true}, {"type":
+    "boolean", "name": "City_Cottonwood", "required": true}, {"type": "boolean", "name":
+    "City_Coulterville", "required": true}, {"type": "boolean", "name": "City_Courtland",
+    "required": true}, {"type": "boolean", "name": "City_Covelo", "required": true},
+    {"type": "boolean", "name": "City_Covina", "required": true}, {"type": "boolean",
+    "name": "City_Crescent Mills", "required": true}, {"type": "boolean", "name":
+    "City_Cressey", "required": true}, {"type": "boolean", "name": "City_Crestline",
+    "required": true}, {"type": "boolean", "name": "City_Creston", "required": true},
+    {"type": "boolean", "name": "City_Crockett", "required": true}, {"type": "boolean",
+    "name": "City_Crows Landing", "required": true}, {"type": "boolean", "name": "City_Culver
+    City", "required": true}, {"type": "boolean", "name": "City_Cupertino", "required":
+    true}, {"type": "boolean", "name": "City_Cutler", "required": true}, {"type":
+    "boolean", "name": "City_Cypress", "required": true}, {"type": "boolean", "name":
+    "City_Daggett", "required": true}, {"type": "boolean", "name": "City_Daly City",
+    "required": true}, {"type": "boolean", "name": "City_Dana Point", "required":
+    true}, {"type": "boolean", "name": "City_Danville", "required": true}, {"type":
+    "boolean", "name": "City_Darwin", "required": true}, {"type": "boolean", "name":
+    "City_Davenport", "required": true}, {"type": "boolean", "name": "City_Davis",
+    "required": true}, {"type": "boolean", "name": "City_Davis Creek", "required":
+    true}, {"type": "boolean", "name": "City_Death Valley", "required": true}, {"type":
+    "boolean", "name": "City_Deer Park", "required": true}, {"type": "boolean", "name":
+    "City_Del Mar", "required": true}, {"type": "boolean", "name": "City_Del Rey",
+    "required": true}, {"type": "boolean", "name": "City_Delano", "required": true},
+    {"type": "boolean", "name": "City_Delhi", "required": true}, {"type": "boolean",
+    "name": "City_Denair", "required": true}, {"type": "boolean", "name": "City_Descanso",
+    "required": true}, {"type": "boolean", "name": "City_Desert Center", "required":
+    true}, {"type": "boolean", "name": "City_Desert Hot Springs", "required": true},
+    {"type": "boolean", "name": "City_Diamond Bar", "required": true}, {"type": "boolean",
+    "name": "City_Diamond Springs", "required": true}, {"type": "boolean", "name":
+    "City_Dillon Beach", "required": true}, {"type": "boolean", "name": "City_Dinuba",
+    "required": true}, {"type": "boolean", "name": "City_Dixon", "required": true},
+    {"type": "boolean", "name": "City_Dobbins", "required": true}, {"type": "boolean",
+    "name": "City_Dorris", "required": true}, {"type": "boolean", "name": "City_Dos
+    Palos", "required": true}, {"type": "boolean", "name": "City_Dos Rios", "required":
+    true}, {"type": "boolean", "name": "City_Douglas City", "required": true}, {"type":
+    "boolean", "name": "City_Downey", "required": true}, {"type": "boolean", "name":
+    "City_Downieville", "required": true}, {"type": "boolean", "name": "City_Doyle",
+    "required": true}, {"type": "boolean", "name": "City_Duarte", "required": true},
+    {"type": "boolean", "name": "City_Dublin", "required": true}, {"type": "boolean",
+    "name": "City_Ducor", "required": true}, {"type": "boolean", "name": "City_Dulzura",
+    "required": true}, {"type": "boolean", "name": "City_Duncans Mills", "required":
+    true}, {"type": "boolean", "name": "City_Dunlap", "required": true}, {"type":
+    "boolean", "name": "City_Dunnigan", "required": true}, {"type": "boolean", "name":
+    "City_Dunsmuir", "required": true}, {"type": "boolean", "name": "City_Durham",
+    "required": true}, {"type": "boolean", "name": "City_Dutch Flat", "required":
+    true}, {"type": "boolean", "name": "City_Eagleville", "required": true}, {"type":
+    "boolean", "name": "City_Earlimart", "required": true}, {"type": "boolean", "name":
+    "City_Earp", "required": true}, {"type": "boolean", "name": "City_Echo Lake",
+    "required": true}, {"type": "boolean", "name": "City_Edwards", "required": true},
+    {"type": "boolean", "name": "City_El Cajon", "required": true}, {"type": "boolean",
+    "name": "City_El Centro", "required": true}, {"type": "boolean", "name": "City_El
+    Cerrito", "required": true}, {"type": "boolean", "name": "City_El Dorado", "required":
+    true}, {"type": "boolean", "name": "City_El Dorado Hills", "required": true},
+    {"type": "boolean", "name": "City_El Monte", "required": true}, {"type": "boolean",
+    "name": "City_El Nido", "required": true}, {"type": "boolean", "name": "City_El
+    Portal", "required": true}, {"type": "boolean", "name": "City_El Segundo", "required":
+    true}, {"type": "boolean", "name": "City_El Sobrante", "required": true}, {"type":
+    "boolean", "name": "City_Eldridge", "required": true}, {"type": "boolean", "name":
+    "City_Elk", "required": true}, {"type": "boolean", "name": "City_Elk Creek", "required":
+    true}, {"type": "boolean", "name": "City_Elk Grove", "required": true}, {"type":
+    "boolean", "name": "City_Elmira", "required": true}, {"type": "boolean", "name":
+    "City_Elverta", "required": true}, {"type": "boolean", "name": "City_Emeryville",
+    "required": true}, {"type": "boolean", "name": "City_Emigrant Gap", "required":
+    true}, {"type": "boolean", "name": "City_Encinitas", "required": true}, {"type":
+    "boolean", "name": "City_Encino", "required": true}, {"type": "boolean", "name":
+    "City_Escalon", "required": true}, {"type": "boolean", "name": "City_Escondido",
+    "required": true}, {"type": "boolean", "name": "City_Esparto", "required": true},
+    {"type": "boolean", "name": "City_Essex", "required": true}, {"type": "boolean",
+    "name": "City_Etna", "required": true}, {"type": "boolean", "name": "City_Eureka",
+    "required": true}, {"type": "boolean", "name": "City_Exeter", "required": true},
+    {"type": "boolean", "name": "City_Fair Oaks", "required": true}, {"type": "boolean",
+    "name": "City_Fairfax", "required": true}, {"type": "boolean", "name": "City_Fairfield",
+    "required": true}, {"type": "boolean", "name": "City_Fall River Mills", "required":
+    true}, {"type": "boolean", "name": "City_Fallbrook", "required": true}, {"type":
+    "boolean", "name": "City_Farmersville", "required": true}, {"type": "boolean",
+    "name": "City_Farmington", "required": true}, {"type": "boolean", "name": "City_Fawnskin",
+    "required": true}, {"type": "boolean", "name": "City_Fellows", "required": true},
+    {"type": "boolean", "name": "City_Felton", "required": true}, {"type": "boolean",
+    "name": "City_Ferndale", "required": true}, {"type": "boolean", "name": "City_Fiddletown",
+    "required": true}, {"type": "boolean", "name": "City_Fields Landing", "required":
+    true}, {"type": "boolean", "name": "City_Fillmore", "required": true}, {"type":
+    "boolean", "name": "City_Firebaugh", "required": true}, {"type": "boolean", "name":
+    "City_Fish Camp", "required": true}, {"type": "boolean", "name": "City_Five Points",
+    "required": true}, {"type": "boolean", "name": "City_Flournoy", "required": true},
+    {"type": "boolean", "name": "City_Folsom", "required": true}, {"type": "boolean",
+    "name": "City_Fontana", "required": true}, {"type": "boolean", "name": "City_Foothill
+    Ranch", "required": true}, {"type": "boolean", "name": "City_Forbestown", "required":
+    true}, {"type": "boolean", "name": "City_Forest Falls", "required": true}, {"type":
+    "boolean", "name": "City_Forest Knolls", "required": true}, {"type": "boolean",
+    "name": "City_Forest Ranch", "required": true}, {"type": "boolean", "name": "City_Foresthill",
+    "required": true}, {"type": "boolean", "name": "City_Forestville", "required":
+    true}, {"type": "boolean", "name": "City_Forks Of Salmon", "required": true},
+    {"type": "boolean", "name": "City_Fort Bidwell", "required": true}, {"type": "boolean",
+    "name": "City_Fort Bragg", "required": true}, {"type": "boolean", "name": "City_Fort
+    Irwin", "required": true}, {"type": "boolean", "name": "City_Fortuna", "required":
+    true}, {"type": "boolean", "name": "City_Fountain Valley", "required": true},
+    {"type": "boolean", "name": "City_Fowler", "required": true}, {"type": "boolean",
+    "name": "City_Frazier Park", "required": true}, {"type": "boolean", "name": "City_Freedom",
+    "required": true}, {"type": "boolean", "name": "City_Fremont", "required": true},
+    {"type": "boolean", "name": "City_French Camp", "required": true}, {"type": "boolean",
+    "name": "City_French Gulch", "required": true}, {"type": "boolean", "name": "City_Fresno",
+    "required": true}, {"type": "boolean", "name": "City_Friant", "required": true},
+    {"type": "boolean", "name": "City_Fullerton", "required": true}, {"type": "boolean",
+    "name": "City_Fulton", "required": true}, {"type": "boolean", "name": "City_Galt",
+    "required": true}, {"type": "boolean", "name": "City_Garberville", "required":
+    true}, {"type": "boolean", "name": "City_Garden Grove", "required": true}, {"type":
+    "boolean", "name": "City_Garden Valley", "required": true}, {"type": "boolean",
+    "name": "City_Gardena", "required": true}, {"type": "boolean", "name": "City_Gasquet",
+    "required": true}, {"type": "boolean", "name": "City_Gazelle", "required": true},
+    {"type": "boolean", "name": "City_Georgetown", "required": true}, {"type": "boolean",
+    "name": "City_Gerber", "required": true}, {"type": "boolean", "name": "City_Geyserville",
+    "required": true}, {"type": "boolean", "name": "City_Gilroy", "required": true},
+    {"type": "boolean", "name": "City_Glen Ellen", "required": true}, {"type": "boolean",
+    "name": "City_Glencoe", "required": true}, {"type": "boolean", "name": "City_Glendale",
+    "required": true}, {"type": "boolean", "name": "City_Glendora", "required": true},
+    {"type": "boolean", "name": "City_Glenhaven", "required": true}, {"type": "boolean",
+    "name": "City_Glenn", "required": true}, {"type": "boolean", "name": "City_Glennville",
+    "required": true}, {"type": "boolean", "name": "City_Gold Run", "required": true},
+    {"type": "boolean", "name": "City_Goleta", "required": true}, {"type": "boolean",
+    "name": "City_Gonzales", "required": true}, {"type": "boolean", "name": "City_Goodyears
+    Bar", "required": true}, {"type": "boolean", "name": "City_Granada Hills", "required":
+    true}, {"type": "boolean", "name": "City_Grand Terrace", "required": true}, {"type":
+    "boolean", "name": "City_Granite Bay", "required": true}, {"type": "boolean",
+    "name": "City_Grass Valley", "required": true}, {"type": "boolean", "name": "City_Graton",
+    "required": true}, {"type": "boolean", "name": "City_Green Valley Lake", "required":
+    true}, {"type": "boolean", "name": "City_Greenbrae", "required": true}, {"type":
+    "boolean", "name": "City_Greenfield", "required": true}, {"type": "boolean", "name":
+    "City_Greenview", "required": true}, {"type": "boolean", "name": "City_Greenville",
+    "required": true}, {"type": "boolean", "name": "City_Greenwood", "required": true},
+    {"type": "boolean", "name": "City_Grenada", "required": true}, {"type": "boolean",
+    "name": "City_Gridley", "required": true}, {"type": "boolean", "name": "City_Grimes",
+    "required": true}, {"type": "boolean", "name": "City_Grizzly Flats", "required":
+    true}, {"type": "boolean", "name": "City_Groveland", "required": true}, {"type":
+    "boolean", "name": "City_Grover Beach", "required": true}, {"type": "boolean",
+    "name": "City_Guadalupe", "required": true}, {"type": "boolean", "name": "City_Gualala",
+    "required": true}, {"type": "boolean", "name": "City_Guatay", "required": true},
+    {"type": "boolean", "name": "City_Guerneville", "required": true}, {"type": "boolean",
+    "name": "City_Guinda", "required": true}, {"type": "boolean", "name": "City_Gustine",
+    "required": true}, {"type": "boolean", "name": "City_Hacienda Heights", "required":
+    true}, {"type": "boolean", "name": "City_Half Moon Bay", "required": true}, {"type":
+    "boolean", "name": "City_Hamilton City", "required": true}, {"type": "boolean",
+    "name": "City_Hanford", "required": true}, {"type": "boolean", "name": "City_Happy
+    Camp", "required": true}, {"type": "boolean", "name": "City_Harbor City", "required":
+    true}, {"type": "boolean", "name": "City_Hat Creek", "required": true}, {"type":
+    "boolean", "name": "City_Hathaway Pines", "required": true}, {"type": "boolean",
+    "name": "City_Hawaiian Gardens", "required": true}, {"type": "boolean", "name":
+    "City_Hawthorne", "required": true}, {"type": "boolean", "name": "City_Hayward",
+    "required": true}, {"type": "boolean", "name": "City_Healdsburg", "required":
+    true}, {"type": "boolean", "name": "City_Heber", "required": true}, {"type": "boolean",
+    "name": "City_Helendale", "required": true}, {"type": "boolean", "name": "City_Helm",
+    "required": true}, {"type": "boolean", "name": "City_Hemet", "required": true},
+    {"type": "boolean", "name": "City_Herald", "required": true}, {"type": "boolean",
+    "name": "City_Hercules", "required": true}, {"type": "boolean", "name": "City_Herlong",
+    "required": true}, {"type": "boolean", "name": "City_Hermosa Beach", "required":
+    true}, {"type": "boolean", "name": "City_Hesperia", "required": true}, {"type":
+    "boolean", "name": "City_Hickman", "required": true}, {"type": "boolean", "name":
+    "City_Highland", "required": true}, {"type": "boolean", "name": "City_Hilmar",
+    "required": true}, {"type": "boolean", "name": "City_Hinkley", "required": true},
+    {"type": "boolean", "name": "City_Holtville", "required": true}, {"type": "boolean",
+    "name": "City_Homeland", "required": true}, {"type": "boolean", "name": "City_Homewood",
+    "required": true}, {"type": "boolean", "name": "City_Honeydew", "required": true},
+    {"type": "boolean", "name": "City_Hood", "required": true}, {"type": "boolean",
+    "name": "City_Hoopa", "required": true}, {"type": "boolean", "name": "City_Hopland",
+    "required": true}, {"type": "boolean", "name": "City_Hornbrook", "required": true},
+    {"type": "boolean", "name": "City_Hornitos", "required": true}, {"type": "boolean",
+    "name": "City_Hughson", "required": true}, {"type": "boolean", "name": "City_Hume",
+    "required": true}, {"type": "boolean", "name": "City_Huntington Beach", "required":
+    true}, {"type": "boolean", "name": "City_Huntington Park", "required": true},
+    {"type": "boolean", "name": "City_Huron", "required": true}, {"type": "boolean",
+    "name": "City_Hyampom", "required": true}, {"type": "boolean", "name": "City_Hydesville",
+    "required": true}, {"type": "boolean", "name": "City_Idyllwild", "required": true},
+    {"type": "boolean", "name": "City_Igo", "required": true}, {"type": "boolean",
+    "name": "City_Imperial", "required": true}, {"type": "boolean", "name": "City_Imperial
+    Beach", "required": true}, {"type": "boolean", "name": "City_Independence", "required":
+    true}, {"type": "boolean", "name": "City_Indian Wells", "required": true}, {"type":
+    "boolean", "name": "City_Indio", "required": true}, {"type": "boolean", "name":
+    "City_Inglewood", "required": true}, {"type": "boolean", "name": "City_Inverness",
+    "required": true}, {"type": "boolean", "name": "City_Ione", "required": true},
+    {"type": "boolean", "name": "City_Irvine", "required": true}, {"type": "boolean",
+    "name": "City_Isleton", "required": true}, {"type": "boolean", "name": "City_Ivanhoe",
+    "required": true}, {"type": "boolean", "name": "City_Jackson", "required": true},
+    {"type": "boolean", "name": "City_Jacumba", "required": true}, {"type": "boolean",
+    "name": "City_Jamestown", "required": true}, {"type": "boolean", "name": "City_Jamul",
+    "required": true}, {"type": "boolean", "name": "City_Janesville", "required":
+    true}, {"type": "boolean", "name": "City_Jenner", "required": true}, {"type":
+    "boolean", "name": "City_Johannesburg", "required": true}, {"type": "boolean",
+    "name": "City_Jolon", "required": true}, {"type": "boolean", "name": "City_Joshua
+    Tree", "required": true}, {"type": "boolean", "name": "City_Julian", "required":
+    true}, {"type": "boolean", "name": "City_Junction City", "required": true}, {"type":
+    "boolean", "name": "City_June Lake", "required": true}, {"type": "boolean", "name":
+    "City_Keeler", "required": true}, {"type": "boolean", "name": "City_Keene", "required":
+    true}, {"type": "boolean", "name": "City_Kelseyville", "required": true}, {"type":
+    "boolean", "name": "City_Kenwood", "required": true}, {"type": "boolean", "name":
+    "City_Kerman", "required": true}, {"type": "boolean", "name": "City_Kernville",
+    "required": true}, {"type": "boolean", "name": "City_Kettleman City", "required":
+    true}, {"type": "boolean", "name": "City_Keyes", "required": true}, {"type": "boolean",
+    "name": "City_King City", "required": true}, {"type": "boolean", "name": "City_Kings
+    Beach", "required": true}, {"type": "boolean", "name": "City_Kingsburg", "required":
+    true}, {"type": "boolean", "name": "City_Kirkwood", "required": true}, {"type":
+    "boolean", "name": "City_Klamath", "required": true}, {"type": "boolean", "name":
+    "City_Klamath River", "required": true}, {"type": "boolean", "name": "City_Kneeland",
+    "required": true}, {"type": "boolean", "name": "City_Knights Landing", "required":
+    true}, {"type": "boolean", "name": "City_Korbel", "required": true}, {"type":
+    "boolean", "name": "City_Kyburz", "required": true}, {"type": "boolean", "name":
+    "City_La Canada Flintridge", "required": true}, {"type": "boolean", "name": "City_La
+    Crescenta", "required": true}, {"type": "boolean", "name": "City_La Grange", "required":
+    true}, {"type": "boolean", "name": "City_La Habra", "required": true}, {"type":
+    "boolean", "name": "City_La Honda", "required": true}, {"type": "boolean", "name":
+    "City_La Jolla", "required": true}, {"type": "boolean", "name": "City_La Mesa",
+    "required": true}, {"type": "boolean", "name": "City_La Mirada", "required": true},
+    {"type": "boolean", "name": "City_La Palma", "required": true}, {"type": "boolean",
+    "name": "City_La Puente", "required": true}, {"type": "boolean", "name": "City_La
+    Quinta", "required": true}, {"type": "boolean", "name": "City_La Verne", "required":
+    true}, {"type": "boolean", "name": "City_Ladera Ranch", "required": true}, {"type":
+    "boolean", "name": "City_Lafayette", "required": true}, {"type": "boolean", "name":
+    "City_Laguna Beach", "required": true}, {"type": "boolean", "name": "City_Laguna
+    Hills", "required": true}, {"type": "boolean", "name": "City_Laguna Niguel", "required":
+    true}, {"type": "boolean", "name": "City_Lagunitas", "required": true}, {"type":
+    "boolean", "name": "City_Lake Arrowhead", "required": true}, {"type": "boolean",
+    "name": "City_Lake Elsinore", "required": true}, {"type": "boolean", "name": "City_Lake
+    Forest", "required": true}, {"type": "boolean", "name": "City_Lake Hughes", "required":
+    true}, {"type": "boolean", "name": "City_Lake Isabella", "required": true}, {"type":
+    "boolean", "name": "City_Lakehead", "required": true}, {"type": "boolean", "name":
+    "City_Lakeport", "required": true}, {"type": "boolean", "name": "City_Lakeshore",
+    "required": true}, {"type": "boolean", "name": "City_Lakeside", "required": true},
+    {"type": "boolean", "name": "City_Lakewood", "required": true}, {"type": "boolean",
+    "name": "City_Lamont", "required": true}, {"type": "boolean", "name": "City_Lancaster",
+    "required": true}, {"type": "boolean", "name": "City_Landers", "required": true},
+    {"type": "boolean", "name": "City_Larkspur", "required": true}, {"type": "boolean",
+    "name": "City_Lathrop", "required": true}, {"type": "boolean", "name": "City_Laton",
+    "required": true}, {"type": "boolean", "name": "City_Lawndale", "required": true},
+    {"type": "boolean", "name": "City_Laytonville", "required": true}, {"type": "boolean",
+    "name": "City_Le Grand", "required": true}, {"type": "boolean", "name": "City_Lebec",
+    "required": true}, {"type": "boolean", "name": "City_Lee Vining", "required":
+    true}, {"type": "boolean", "name": "City_Leggett", "required": true}, {"type":
+    "boolean", "name": "City_Lemon Cove", "required": true}, {"type": "boolean", "name":
+    "City_Lemon Grove", "required": true}, {"type": "boolean", "name": "City_Lemoore",
+    "required": true}, {"type": "boolean", "name": "City_Lewiston", "required": true},
+    {"type": "boolean", "name": "City_Likely", "required": true}, {"type": "boolean",
+    "name": "City_Lincoln", "required": true}, {"type": "boolean", "name": "City_Linden",
+    "required": true}, {"type": "boolean", "name": "City_Lindsay", "required": true},
+    {"type": "boolean", "name": "City_Litchfield", "required": true}, {"type": "boolean",
+    "name": "City_Little River", "required": true}, {"type": "boolean", "name": "City_Littlerock",
+    "required": true}, {"type": "boolean", "name": "City_Live Oak", "required": true},
+    {"type": "boolean", "name": "City_Livermore", "required": true}, {"type": "boolean",
+    "name": "City_Livingston", "required": true}, {"type": "boolean", "name": "City_Llano",
+    "required": true}, {"type": "boolean", "name": "City_Lockeford", "required": true},
+    {"type": "boolean", "name": "City_Lockwood", "required": true}, {"type": "boolean",
+    "name": "City_Lodi", "required": true}, {"type": "boolean", "name": "City_Loleta",
+    "required": true}, {"type": "boolean", "name": "City_Loma Linda", "required":
+    true}, {"type": "boolean", "name": "City_Loma Mar", "required": true}, {"type":
+    "boolean", "name": "City_Lomita", "required": true}, {"type": "boolean", "name":
+    "City_Lompoc", "required": true}, {"type": "boolean", "name": "City_Long Barn",
+    "required": true}, {"type": "boolean", "name": "City_Long Beach", "required":
+    true}, {"type": "boolean", "name": "City_Lookout", "required": true}, {"type":
+    "boolean", "name": "City_Loomis", "required": true}, {"type": "boolean", "name":
+    "City_Los Alamitos", "required": true}, {"type": "boolean", "name": "City_Los
+    Alamos", "required": true}, {"type": "boolean", "name": "City_Los Altos", "required":
+    true}, {"type": "boolean", "name": "City_Los Angeles", "required": true}, {"type":
+    "boolean", "name": "City_Los Banos", "required": true}, {"type": "boolean", "name":
+    "City_Los Gatos", "required": true}, {"type": "boolean", "name": "City_Los Molinos",
+    "required": true}, {"type": "boolean", "name": "City_Los Olivos", "required":
+    true}, {"type": "boolean", "name": "City_Los Osos", "required": true}, {"type":
+    "boolean", "name": "City_Lost Hills", "required": true}, {"type": "boolean", "name":
+    "City_Lotus", "required": true}, {"type": "boolean", "name": "City_Lower Lake",
+    "required": true}, {"type": "boolean", "name": "City_Loyalton", "required": true},
+    {"type": "boolean", "name": "City_Lucerne", "required": true}, {"type": "boolean",
+    "name": "City_Lucerne Valley", "required": true}, {"type": "boolean", "name":
+    "City_Ludlow", "required": true}, {"type": "boolean", "name": "City_Lynwood",
+    "required": true}, {"type": "boolean", "name": "City_Lytle Creek", "required":
+    true}, {"type": "boolean", "name": "City_Macdoel", "required": true}, {"type":
+    "boolean", "name": "City_Mad River", "required": true}, {"type": "boolean", "name":
+    "City_Madeline", "required": true}, {"type": "boolean", "name": "City_Madera",
+    "required": true}, {"type": "boolean", "name": "City_Madison", "required": true},
+    {"type": "boolean", "name": "City_Magalia", "required": true}, {"type": "boolean",
+    "name": "City_Malibu", "required": true}, {"type": "boolean", "name": "City_Mammoth
+    Lakes", "required": true}, {"type": "boolean", "name": "City_Manchester", "required":
+    true}, {"type": "boolean", "name": "City_Manhattan Beach", "required": true},
+    {"type": "boolean", "name": "City_Manteca", "required": true}, {"type": "boolean",
+    "name": "City_Manton", "required": true}, {"type": "boolean", "name": "City_March
+    Air Reserve Base", "required": true}, {"type": "boolean", "name": "City_Marina",
+    "required": true}, {"type": "boolean", "name": "City_Marina Del Rey", "required":
+    true}, {"type": "boolean", "name": "City_Mariposa", "required": true}, {"type":
+    "boolean", "name": "City_Markleeville", "required": true}, {"type": "boolean",
+    "name": "City_Marshall", "required": true}, {"type": "boolean", "name": "City_Martinez",
+    "required": true}, {"type": "boolean", "name": "City_Marysville", "required":
+    true}, {"type": "boolean", "name": "City_Mather", "required": true}, {"type":
+    "boolean", "name": "City_Maxwell", "required": true}, {"type": "boolean", "name":
+    "City_Maywood", "required": true}, {"type": "boolean", "name": "City_Mc Farland",
+    "required": true}, {"type": "boolean", "name": "City_Mc Kittrick", "required":
+    true}, {"type": "boolean", "name": "City_Mcarthur", "required": true}, {"type":
+    "boolean", "name": "City_Mccloud", "required": true}, {"type": "boolean", "name":
+    "City_Mckinleyville", "required": true}, {"type": "boolean", "name": "City_Meadow
+    Valley", "required": true}, {"type": "boolean", "name": "City_Meadow Vista", "required":
+    true}, {"type": "boolean", "name": "City_Mecca", "required": true}, {"type": "boolean",
+    "name": "City_Mendocino", "required": true}, {"type": "boolean", "name": "City_Menifee",
+    "required": true}, {"type": "boolean", "name": "City_Menlo Park", "required":
+    true}, {"type": "boolean", "name": "City_Mentone", "required": true}, {"type":
+    "boolean", "name": "City_Merced", "required": true}, {"type": "boolean", "name":
+    "City_Meridian", "required": true}, {"type": "boolean", "name": "City_Mi Wuk Village",
+    "required": true}, {"type": "boolean", "name": "City_Middletown", "required":
+    true}, {"type": "boolean", "name": "City_Midpines", "required": true}, {"type":
+    "boolean", "name": "City_Midway City", "required": true}, {"type": "boolean",
+    "name": "City_Milford", "required": true}, {"type": "boolean", "name": "City_Mill
+    Creek", "required": true}, {"type": "boolean", "name": "City_Mill Valley", "required":
+    true}, {"type": "boolean", "name": "City_Millbrae", "required": true}, {"type":
+    "boolean", "name": "City_Millville", "required": true}, {"type": "boolean", "name":
+    "City_Milpitas", "required": true}, {"type": "boolean", "name": "City_Mineral",
+    "required": true}, {"type": "boolean", "name": "City_Mira Loma", "required": true},
+    {"type": "boolean", "name": "City_Miramonte", "required": true}, {"type": "boolean",
+    "name": "City_Miranda", "required": true}, {"type": "boolean", "name": "City_Mission
+    Hills", "required": true}, {"type": "boolean", "name": "City_Mission Viejo", "required":
+    true}, {"type": "boolean", "name": "City_Modesto", "required": true}, {"type":
+    "boolean", "name": "City_Mojave", "required": true}, {"type": "boolean", "name":
+    "City_Mokelumne Hill", "required": true}, {"type": "boolean", "name": "City_Monrovia",
+    "required": true}, {"type": "boolean", "name": "City_Montara", "required": true},
+    {"type": "boolean", "name": "City_Montclair", "required": true}, {"type": "boolean",
+    "name": "City_Monte Rio", "required": true}, {"type": "boolean", "name": "City_Montebello",
+    "required": true}, {"type": "boolean", "name": "City_Monterey", "required": true},
+    {"type": "boolean", "name": "City_Monterey Park", "required": true}, {"type":
+    "boolean", "name": "City_Montgomery Creek", "required": true}, {"type": "boolean",
+    "name": "City_Montrose", "required": true}, {"type": "boolean", "name": "City_Moorpark",
+    "required": true}, {"type": "boolean", "name": "City_Moraga", "required": true},
+    {"type": "boolean", "name": "City_Moreno Valley", "required": true}, {"type":
+    "boolean", "name": "City_Morgan Hill", "required": true}, {"type": "boolean",
+    "name": "City_Morongo Valley", "required": true}, {"type": "boolean", "name":
+    "City_Morro Bay", "required": true}, {"type": "boolean", "name": "City_Moss Beach",
+    "required": true}, {"type": "boolean", "name": "City_Moss Landing", "required":
+    true}, {"type": "boolean", "name": "City_Mount Hamilton", "required": true}, {"type":
+    "boolean", "name": "City_Mount Hermon", "required": true}, {"type": "boolean",
+    "name": "City_Mount Laguna", "required": true}, {"type": "boolean", "name": "City_Mount
+    Shasta", "required": true}, {"type": "boolean", "name": "City_Mountain Center",
+    "required": true}, {"type": "boolean", "name": "City_Mountain Ranch", "required":
+    true}, {"type": "boolean", "name": "City_Mountain View", "required": true}, {"type":
+    "boolean", "name": "City_Mt Baldy", "required": true}, {"type": "boolean", "name":
+    "City_Murphys", "required": true}, {"type": "boolean", "name": "City_Murrieta",
+    "required": true}, {"type": "boolean", "name": "City_Myers Flat", "required":
+    true}, {"type": "boolean", "name": "City_Napa", "required": true}, {"type": "boolean",
+    "name": "City_National City", "required": true}, {"type": "boolean", "name": "City_Navarro",
+    "required": true}, {"type": "boolean", "name": "City_Needles", "required": true},
+    {"type": "boolean", "name": "City_Nevada City", "required": true}, {"type": "boolean",
+    "name": "City_New Cuyama", "required": true}, {"type": "boolean", "name": "City_Newark",
+    "required": true}, {"type": "boolean", "name": "City_Newbury Park", "required":
+    true}, {"type": "boolean", "name": "City_Newcastle", "required": true}, {"type":
+    "boolean", "name": "City_Newhall", "required": true}, {"type": "boolean", "name":
+    "City_Newman", "required": true}, {"type": "boolean", "name": "City_Newport Beach",
+    "required": true}, {"type": "boolean", "name": "City_Newport Coast", "required":
+    true}, {"type": "boolean", "name": "City_Nicasio", "required": true}, {"type":
+    "boolean", "name": "City_Nice", "required": true}, {"type": "boolean", "name":
+    "City_Nicolaus", "required": true}, {"type": "boolean", "name": "City_Niland",
+    "required": true}, {"type": "boolean", "name": "City_Nipomo", "required": true},
+    {"type": "boolean", "name": "City_Nipton", "required": true}, {"type": "boolean",
+    "name": "City_Norco", "required": true}, {"type": "boolean", "name": "City_North
+    Fork", "required": true}, {"type": "boolean", "name": "City_North Highlands",
+    "required": true}, {"type": "boolean", "name": "City_North Hills", "required":
+    true}, {"type": "boolean", "name": "City_North Hollywood", "required": true},
+    {"type": "boolean", "name": "City_North Palm Springs", "required": true}, {"type":
+    "boolean", "name": "City_North San Juan", "required": true}, {"type": "boolean",
+    "name": "City_Northridge", "required": true}, {"type": "boolean", "name": "City_Norwalk",
+    "required": true}, {"type": "boolean", "name": "City_Novato", "required": true},
+    {"type": "boolean", "name": "City_Nubieber", "required": true}, {"type": "boolean",
+    "name": "City_Nuevo", "required": true}, {"type": "boolean", "name": "City_O Neals",
+    "required": true}, {"type": "boolean", "name": "City_Oak Park", "required": true},
+    {"type": "boolean", "name": "City_Oak Run", "required": true}, {"type": "boolean",
+    "name": "City_Oak View", "required": true}, {"type": "boolean", "name": "City_Oakdale",
+    "required": true}, {"type": "boolean", "name": "City_Oakhurst", "required": true},
+    {"type": "boolean", "name": "City_Oakland", "required": true}, {"type": "boolean",
+    "name": "City_Oakley", "required": true}, {"type": "boolean", "name": "City_Occidental",
+    "required": true}, {"type": "boolean", "name": "City_Oceano", "required": true},
+    {"type": "boolean", "name": "City_Oceanside", "required": true}, {"type": "boolean",
+    "name": "City_Ocotillo", "required": true}, {"type": "boolean", "name": "City_Ojai",
+    "required": true}, {"type": "boolean", "name": "City_Olancha", "required": true},
+    {"type": "boolean", "name": "City_Old Station", "required": true}, {"type": "boolean",
+    "name": "City_Olema", "required": true}, {"type": "boolean", "name": "City_Olivehurst",
+    "required": true}, {"type": "boolean", "name": "City_Olympic Valley", "required":
+    true}, {"type": "boolean", "name": "City_Ontario", "required": true}, {"type":
+    "boolean", "name": "City_Orange", "required": true}, {"type": "boolean", "name":
+    "City_Orange Cove", "required": true}, {"type": "boolean", "name": "City_Orangevale",
+    "required": true}, {"type": "boolean", "name": "City_Oregon House", "required":
+    true}, {"type": "boolean", "name": "City_Orick", "required": true}, {"type": "boolean",
+    "name": "City_Orinda", "required": true}, {"type": "boolean", "name": "City_Orland",
+    "required": true}, {"type": "boolean", "name": "City_Orleans", "required": true},
+    {"type": "boolean", "name": "City_Oro Grande", "required": true}, {"type": "boolean",
+    "name": "City_Orosi", "required": true}, {"type": "boolean", "name": "City_Oroville",
+    "required": true}, {"type": "boolean", "name": "City_Oxnard", "required": true},
+    {"type": "boolean", "name": "City_Pacific Grove", "required": true}, {"type":
+    "boolean", "name": "City_Pacific Palisades", "required": true}, {"type": "boolean",
+    "name": "City_Pacifica", "required": true}, {"type": "boolean", "name": "City_Pacoima",
+    "required": true}, {"type": "boolean", "name": "City_Paicines", "required": true},
+    {"type": "boolean", "name": "City_Pala", "required": true}, {"type": "boolean",
+    "name": "City_Palermo", "required": true}, {"type": "boolean", "name": "City_Palm
+    Desert", "required": true}, {"type": "boolean", "name": "City_Palm Springs", "required":
+    true}, {"type": "boolean", "name": "City_Palmdale", "required": true}, {"type":
+    "boolean", "name": "City_Palo Alto", "required": true}, {"type": "boolean", "name":
+    "City_Palo Cedro", "required": true}, {"type": "boolean", "name": "City_Palo Verde",
+    "required": true}, {"type": "boolean", "name": "City_Palomar Mountain", "required":
+    true}, {"type": "boolean", "name": "City_Palos Verdes Peninsula", "required":
+    true}, {"type": "boolean", "name": "City_Paradise", "required": true}, {"type":
+    "boolean", "name": "City_Paramount", "required": true}, {"type": "boolean", "name":
+    "City_Parker Dam", "required": true}, {"type": "boolean", "name": "City_Parlier",
+    "required": true}, {"type": "boolean", "name": "City_Pasadena", "required": true},
+    {"type": "boolean", "name": "City_Paskenta", "required": true}, {"type": "boolean",
+    "name": "City_Paso Robles", "required": true}, {"type": "boolean", "name": "City_Patterson",
+    "required": true}, {"type": "boolean", "name": "City_Pauma Valley", "required":
+    true}, {"type": "boolean", "name": "City_Paynes Creek", "required": true}, {"type":
+    "boolean", "name": "City_Pearblossom", "required": true}, {"type": "boolean",
+    "name": "City_Pebble Beach", "required": true}, {"type": "boolean", "name": "City_Penn
+    Valley", "required": true}, {"type": "boolean", "name": "City_Penngrove", "required":
+    true}, {"type": "boolean", "name": "City_Penryn", "required": true}, {"type":
+    "boolean", "name": "City_Perris", "required": true}, {"type": "boolean", "name":
+    "City_Pescadero", "required": true}, {"type": "boolean", "name": "City_Petaluma",
+    "required": true}, {"type": "boolean", "name": "City_Petrolia", "required": true},
+    {"type": "boolean", "name": "City_Phelan", "required": true}, {"type": "boolean",
+    "name": "City_Phillipsville", "required": true}, {"type": "boolean", "name": "City_Philo",
+    "required": true}, {"type": "boolean", "name": "City_Pico Rivera", "required":
+    true}, {"type": "boolean", "name": "City_Piercy", "required": true}, {"type":
+    "boolean", "name": "City_Pilot Hill", "required": true}, {"type": "boolean", "name":
+    "City_Pine Grove", "required": true}, {"type": "boolean", "name": "City_Pine Valley",
+    "required": true}, {"type": "boolean", "name": "City_Pinecrest", "required": true},
+    {"type": "boolean", "name": "City_Pinole", "required": true}, {"type": "boolean",
+    "name": "City_Pinon Hills", "required": true}, {"type": "boolean", "name": "City_Pioneer",
+    "required": true}, {"type": "boolean", "name": "City_Pioneertown", "required":
+    true}, {"type": "boolean", "name": "City_Piru", "required": true}, {"type": "boolean",
+    "name": "City_Pismo Beach", "required": true}, {"type": "boolean", "name": "City_Pittsburg",
+    "required": true}, {"type": "boolean", "name": "City_Pixley", "required": true},
+    {"type": "boolean", "name": "City_Placentia", "required": true}, {"type": "boolean",
+    "name": "City_Placerville", "required": true}, {"type": "boolean", "name": "City_Planada",
+    "required": true}, {"type": "boolean", "name": "City_Platina", "required": true},
+    {"type": "boolean", "name": "City_Playa Del Rey", "required": true}, {"type":
+    "boolean", "name": "City_Pleasant Grove", "required": true}, {"type": "boolean",
+    "name": "City_Pleasant Hill", "required": true}, {"type": "boolean", "name": "City_Pleasanton",
+    "required": true}, {"type": "boolean", "name": "City_Plymouth", "required": true},
+    {"type": "boolean", "name": "City_Point Arena", "required": true}, {"type": "boolean",
+    "name": "City_Point Reyes Station", "required": true}, {"type": "boolean", "name":
+    "City_Pollock Pines", "required": true}, {"type": "boolean", "name": "City_Pomona",
+    "required": true}, {"type": "boolean", "name": "City_Pope Valley", "required":
+    true}, {"type": "boolean", "name": "City_Port Costa", "required": true}, {"type":
+    "boolean", "name": "City_Port Hueneme", "required": true}, {"type": "boolean",
+    "name": "City_Porter Ranch", "required": true}, {"type": "boolean", "name": "City_Porterville",
+    "required": true}, {"type": "boolean", "name": "City_Portola", "required": true},
+    {"type": "boolean", "name": "City_Portola Valley", "required": true}, {"type":
+    "boolean", "name": "City_Posey", "required": true}, {"type": "boolean", "name":
+    "City_Potrero", "required": true}, {"type": "boolean", "name": "City_Potter Valley",
+    "required": true}, {"type": "boolean", "name": "City_Poway", "required": true},
+    {"type": "boolean", "name": "City_Prather", "required": true}, {"type": "boolean",
+    "name": "City_Princeton", "required": true}, {"type": "boolean", "name": "City_Quincy",
+    "required": true}, {"type": "boolean", "name": "City_Raisin City", "required":
+    true}, {"type": "boolean", "name": "City_Ramona", "required": true}, {"type":
+    "boolean", "name": "City_Ranchita", "required": true}, {"type": "boolean", "name":
+    "City_Rancho Cordova", "required": true}, {"type": "boolean", "name": "City_Rancho
+    Cucamonga", "required": true}, {"type": "boolean", "name": "City_Rancho Mirage",
+    "required": true}, {"type": "boolean", "name": "City_Rancho Palos Verdes", "required":
+    true}, {"type": "boolean", "name": "City_Rancho Santa Fe", "required": true},
+    {"type": "boolean", "name": "City_Rancho Santa Margarita", "required": true},
+    {"type": "boolean", "name": "City_Randsburg", "required": true}, {"type": "boolean",
+    "name": "City_Ravendale", "required": true}, {"type": "boolean", "name": "City_Raymond",
+    "required": true}, {"type": "boolean", "name": "City_Red Bluff", "required": true},
+    {"type": "boolean", "name": "City_Redcrest", "required": true}, {"type": "boolean",
+    "name": "City_Redding", "required": true}, {"type": "boolean", "name": "City_Redlands",
+    "required": true}, {"type": "boolean", "name": "City_Redondo Beach", "required":
+    true}, {"type": "boolean", "name": "City_Redway", "required": true}, {"type":
+    "boolean", "name": "City_Redwood City", "required": true}, {"type": "boolean",
+    "name": "City_Redwood Valley", "required": true}, {"type": "boolean", "name":
+    "City_Reedley", "required": true}, {"type": "boolean", "name": "City_Rescue",
+    "required": true}, {"type": "boolean", "name": "City_Reseda", "required": true},
+    {"type": "boolean", "name": "City_Rialto", "required": true}, {"type": "boolean",
+    "name": "City_Richgrove", "required": true}, {"type": "boolean", "name": "City_Richmond",
+    "required": true}, {"type": "boolean", "name": "City_Richvale", "required": true},
+    {"type": "boolean", "name": "City_Rio Dell", "required": true}, {"type": "boolean",
+    "name": "City_Rio Linda", "required": true}, {"type": "boolean", "name": "City_Rio
+    Nido", "required": true}, {"type": "boolean", "name": "City_Rio Oso", "required":
+    true}, {"type": "boolean", "name": "City_Rio Vista", "required": true}, {"type":
+    "boolean", "name": "City_Ripon", "required": true}, {"type": "boolean", "name":
+    "City_River Pines", "required": true}, {"type": "boolean", "name": "City_Riverbank",
+    "required": true}, {"type": "boolean", "name": "City_Riverdale", "required": true},
+    {"type": "boolean", "name": "City_Riverside", "required": true}, {"type": "boolean",
+    "name": "City_Rocklin", "required": true}, {"type": "boolean", "name": "City_Rodeo",
+    "required": true}, {"type": "boolean", "name": "City_Rohnert Park", "required":
+    true}, {"type": "boolean", "name": "City_Rosamond", "required": true}, {"type":
+    "boolean", "name": "City_Rosemead", "required": true}, {"type": "boolean", "name":
+    "City_Roseville", "required": true}, {"type": "boolean", "name": "City_Rough And
+    Ready", "required": true}, {"type": "boolean", "name": "City_Round Mountain",
+    "required": true}, {"type": "boolean", "name": "City_Rowland Heights", "required":
+    true}, {"type": "boolean", "name": "City_Running Springs", "required": true},
+    {"type": "boolean", "name": "City_Sacramento", "required": true}, {"type": "boolean",
+    "name": "City_Saint Helena", "required": true}, {"type": "boolean", "name": "City_Salida",
+    "required": true}, {"type": "boolean", "name": "City_Salinas", "required": true},
+    {"type": "boolean", "name": "City_Salton City", "required": true}, {"type": "boolean",
+    "name": "City_Salyer", "required": true}, {"type": "boolean", "name": "City_Samoa",
+    "required": true}, {"type": "boolean", "name": "City_San Andreas", "required":
+    true}, {"type": "boolean", "name": "City_San Anselmo", "required": true}, {"type":
+    "boolean", "name": "City_San Ardo", "required": true}, {"type": "boolean", "name":
+    "City_San Bernardino", "required": true}, {"type": "boolean", "name": "City_San
+    Bruno", "required": true}, {"type": "boolean", "name": "City_San Carlos", "required":
+    true}, {"type": "boolean", "name": "City_San Clemente", "required": true}, {"type":
+    "boolean", "name": "City_San Diego", "required": true}, {"type": "boolean", "name":
+    "City_San Dimas", "required": true}, {"type": "boolean", "name": "City_San Fernando",
+    "required": true}, {"type": "boolean", "name": "City_San Francisco", "required":
+    true}, {"type": "boolean", "name": "City_San Gabriel", "required": true}, {"type":
+    "boolean", "name": "City_San Geronimo", "required": true}, {"type": "boolean",
+    "name": "City_San Gregorio", "required": true}, {"type": "boolean", "name": "City_San
+    Jacinto", "required": true}, {"type": "boolean", "name": "City_San Joaquin", "required":
+    true}, {"type": "boolean", "name": "City_San Jose", "required": true}, {"type":
+    "boolean", "name": "City_San Juan Bautista", "required": true}, {"type": "boolean",
+    "name": "City_San Juan Capistrano", "required": true}, {"type": "boolean", "name":
+    "City_San Leandro", "required": true}, {"type": "boolean", "name": "City_San Lorenzo",
+    "required": true}, {"type": "boolean", "name": "City_San Lucas", "required": true},
+    {"type": "boolean", "name": "City_San Luis Obispo", "required": true}, {"type":
+    "boolean", "name": "City_San Marcos", "required": true}, {"type": "boolean", "name":
+    "City_San Marino", "required": true}, {"type": "boolean", "name": "City_San Martin",
+    "required": true}, {"type": "boolean", "name": "City_San Mateo", "required": true},
+    {"type": "boolean", "name": "City_San Miguel", "required": true}, {"type": "boolean",
+    "name": "City_San Pablo", "required": true}, {"type": "boolean", "name": "City_San
+    Pedro", "required": true}, {"type": "boolean", "name": "City_San Quentin", "required":
+    true}, {"type": "boolean", "name": "City_San Rafael", "required": true}, {"type":
+    "boolean", "name": "City_San Ramon", "required": true}, {"type": "boolean", "name":
+    "City_San Simeon", "required": true}, {"type": "boolean", "name": "City_San Ysidro",
+    "required": true}, {"type": "boolean", "name": "City_Sanger", "required": true},
+    {"type": "boolean", "name": "City_Santa Ana", "required": true}, {"type": "boolean",
+    "name": "City_Santa Barbara", "required": true}, {"type": "boolean", "name": "City_Santa
+    Clara", "required": true}, {"type": "boolean", "name": "City_Santa Clarita", "required":
+    true}, {"type": "boolean", "name": "City_Santa Cruz", "required": true}, {"type":
+    "boolean", "name": "City_Santa Fe Springs", "required": true}, {"type": "boolean",
+    "name": "City_Santa Margarita", "required": true}, {"type": "boolean", "name":
+    "City_Santa Maria", "required": true}, {"type": "boolean", "name": "City_Santa
+    Monica", "required": true}, {"type": "boolean", "name": "City_Santa Paula", "required":
+    true}, {"type": "boolean", "name": "City_Santa Rosa", "required": true}, {"type":
+    "boolean", "name": "City_Santa Ynez", "required": true}, {"type": "boolean", "name":
+    "City_Santa Ysabel", "required": true}, {"type": "boolean", "name": "City_Santee",
+    "required": true}, {"type": "boolean", "name": "City_Saratoga", "required": true},
+    {"type": "boolean", "name": "City_Sausalito", "required": true}, {"type": "boolean",
+    "name": "City_Scotia", "required": true}, {"type": "boolean", "name": "City_Scott
+    Bar", "required": true}, {"type": "boolean", "name": "City_Scotts Valley", "required":
+    true}, {"type": "boolean", "name": "City_Seal Beach", "required": true}, {"type":
+    "boolean", "name": "City_Seaside", "required": true}, {"type": "boolean", "name":
+    "City_Sebastopol", "required": true}, {"type": "boolean", "name": "City_Seeley",
+    "required": true}, {"type": "boolean", "name": "City_Seiad Valley", "required":
+    true}, {"type": "boolean", "name": "City_Selma", "required": true}, {"type": "boolean",
+    "name": "City_Sequoia National Park", "required": true}, {"type": "boolean", "name":
+    "City_Shafter", "required": true}, {"type": "boolean", "name": "City_Shandon",
+    "required": true}, {"type": "boolean", "name": "City_Shasta", "required": true},
+    {"type": "boolean", "name": "City_Shasta Lake", "required": true}, {"type": "boolean",
+    "name": "City_Shaver Lake", "required": true}, {"type": "boolean", "name": "City_Sheep
+    Ranch", "required": true}, {"type": "boolean", "name": "City_Sheridan", "required":
+    true}, {"type": "boolean", "name": "City_Sherman Oaks", "required": true}, {"type":
+    "boolean", "name": "City_Shingle Springs", "required": true}, {"type": "boolean",
+    "name": "City_Shingletown", "required": true}, {"type": "boolean", "name": "City_Shoshone",
+    "required": true}, {"type": "boolean", "name": "City_Sierra City", "required":
+    true}, {"type": "boolean", "name": "City_Sierra Madre", "required": true}, {"type":
+    "boolean", "name": "City_Sierraville", "required": true}, {"type": "boolean",
+    "name": "City_Silverado", "required": true}, {"type": "boolean", "name": "City_Simi
+    Valley", "required": true}, {"type": "boolean", "name": "City_Sloughhouse", "required":
+    true}, {"type": "boolean", "name": "City_Smartville", "required": true}, {"type":
+    "boolean", "name": "City_Smith River", "required": true}, {"type": "boolean",
+    "name": "City_Snelling", "required": true}, {"type": "boolean", "name": "City_Soda
+    Springs", "required": true}, {"type": "boolean", "name": "City_Solana Beach",
+    "required": true}, {"type": "boolean", "name": "City_Soledad", "required": true},
+    {"type": "boolean", "name": "City_Solvang", "required": true}, {"type": "boolean",
+    "name": "City_Somerset", "required": true}, {"type": "boolean", "name": "City_Somes
+    Bar", "required": true}, {"type": "boolean", "name": "City_Somis", "required":
+    true}, {"type": "boolean", "name": "City_Sonoma", "required": true}, {"type":
+    "boolean", "name": "City_Sonora", "required": true}, {"type": "boolean", "name":
+    "City_Soquel", "required": true}, {"type": "boolean", "name": "City_Soulsbyville",
+    "required": true}, {"type": "boolean", "name": "City_South Dos Palos", "required":
+    true}, {"type": "boolean", "name": "City_South El Monte", "required": true}, {"type":
+    "boolean", "name": "City_South Gate", "required": true}, {"type": "boolean", "name":
+    "City_South Lake Tahoe", "required": true}, {"type": "boolean", "name": "City_South
+    Pasadena", "required": true}, {"type": "boolean", "name": "City_South San Francisco",
+    "required": true}, {"type": "boolean", "name": "City_Spreckels", "required": true},
+    {"type": "boolean", "name": "City_Spring Valley", "required": true}, {"type":
+    "boolean", "name": "City_Springville", "required": true}, {"type": "boolean",
+    "name": "City_Squaw Valley", "required": true}, {"type": "boolean", "name": "City_Standish",
+    "required": true}, {"type": "boolean", "name": "City_Stanford", "required": true},
+    {"type": "boolean", "name": "City_Stanton", "required": true}, {"type": "boolean",
+    "name": "City_Stevenson Ranch", "required": true}, {"type": "boolean", "name":
+    "City_Stevinson", "required": true}, {"type": "boolean", "name": "City_Stinson
+    Beach", "required": true}, {"type": "boolean", "name": "City_Stirling City", "required":
+    true}, {"type": "boolean", "name": "City_Stockton", "required": true}, {"type":
+    "boolean", "name": "City_Stonyford", "required": true}, {"type": "boolean", "name":
+    "City_Stratford", "required": true}, {"type": "boolean", "name": "City_Strathmore",
+    "required": true}, {"type": "boolean", "name": "City_Strawberry Valley", "required":
+    true}, {"type": "boolean", "name": "City_Studio City", "required": true}, {"type":
+    "boolean", "name": "City_Sugarloaf", "required": true}, {"type": "boolean", "name":
+    "City_Suisun City", "required": true}, {"type": "boolean", "name": "City_Sultana",
+    "required": true}, {"type": "boolean", "name": "City_Summerland", "required":
+    true}, {"type": "boolean", "name": "City_Sun City", "required": true}, {"type":
+    "boolean", "name": "City_Sun Valley", "required": true}, {"type": "boolean", "name":
+    "City_Sunland", "required": true}, {"type": "boolean", "name": "City_Sunnyvale",
+    "required": true}, {"type": "boolean", "name": "City_Sunol", "required": true},
+    {"type": "boolean", "name": "City_Sunset Beach", "required": true}, {"type": "boolean",
+    "name": "City_Surfside", "required": true}, {"type": "boolean", "name": "City_Susanville",
+    "required": true}, {"type": "boolean", "name": "City_Sutter", "required": true},
+    {"type": "boolean", "name": "City_Sutter Creek", "required": true}, {"type": "boolean",
+    "name": "City_Sylmar", "required": true}, {"type": "boolean", "name": "City_Taft",
+    "required": true}, {"type": "boolean", "name": "City_Tahoe City", "required":
+    true}, {"type": "boolean", "name": "City_Tahoe Vista", "required": true}, {"type":
+    "boolean", "name": "City_Tahoma", "required": true}, {"type": "boolean", "name":
+    "City_Tarzana", "required": true}, {"type": "boolean", "name": "City_Taylorsville",
+    "required": true}, {"type": "boolean", "name": "City_Tecate", "required": true},
+    {"type": "boolean", "name": "City_Tehachapi", "required": true}, {"type": "boolean",
+    "name": "City_Tehama", "required": true}, {"type": "boolean", "name": "City_Temecula",
+    "required": true}, {"type": "boolean", "name": "City_Temple City", "required":
+    true}, {"type": "boolean", "name": "City_Templeton", "required": true}, {"type":
+    "boolean", "name": "City_Termo", "required": true}, {"type": "boolean", "name":
+    "City_Terra Bella", "required": true}, {"type": "boolean", "name": "City_The Sea
+    Ranch", "required": true}, {"type": "boolean", "name": "City_Thermal", "required":
+    true}, {"type": "boolean", "name": "City_Thornton", "required": true}, {"type":
+    "boolean", "name": "City_Thousand Oaks", "required": true}, {"type": "boolean",
+    "name": "City_Thousand Palms", "required": true}, {"type": "boolean", "name":
+    "City_Three Rivers", "required": true}, {"type": "boolean", "name": "City_Tollhouse",
+    "required": true}, {"type": "boolean", "name": "City_Tomales", "required": true},
+    {"type": "boolean", "name": "City_Topanga", "required": true}, {"type": "boolean",
+    "name": "City_Topaz", "required": true}, {"type": "boolean", "name": "City_Torrance",
+    "required": true}, {"type": "boolean", "name": "City_Trabuco Canyon", "required":
+    true}, {"type": "boolean", "name": "City_Tracy", "required": true}, {"type": "boolean",
+    "name": "City_Tranquillity", "required": true}, {"type": "boolean", "name": "City_Traver",
+    "required": true}, {"type": "boolean", "name": "City_Travis Afb", "required":
+    true}, {"type": "boolean", "name": "City_Trinidad", "required": true}, {"type":
+    "boolean", "name": "City_Trinity Center", "required": true}, {"type": "boolean",
+    "name": "City_Tujunga", "required": true}, {"type": "boolean", "name": "City_Tulare",
+    "required": true}, {"type": "boolean", "name": "City_Tulelake", "required": true},
+    {"type": "boolean", "name": "City_Tuolumne", "required": true}, {"type": "boolean",
+    "name": "City_Tupman", "required": true}, {"type": "boolean", "name": "City_Turlock",
+    "required": true}, {"type": "boolean", "name": "City_Tustin", "required": true},
+    {"type": "boolean", "name": "City_Twain", "required": true}, {"type": "boolean",
+    "name": "City_Twain Harte", "required": true}, {"type": "boolean", "name": "City_Twentynine
+    Palms", "required": true}, {"type": "boolean", "name": "City_Twin Bridges", "required":
+    true}, {"type": "boolean", "name": "City_Ukiah", "required": true}, {"type": "boolean",
+    "name": "City_Union City", "required": true}, {"type": "boolean", "name": "City_Upland",
+    "required": true}, {"type": "boolean", "name": "City_Upper Lake", "required":
+    true}, {"type": "boolean", "name": "City_Vacaville", "required": true}, {"type":
+    "boolean", "name": "City_Valencia", "required": true}, {"type": "boolean", "name":
+    "City_Vallecito", "required": true}, {"type": "boolean", "name": "City_Vallejo",
+    "required": true}, {"type": "boolean", "name": "City_Valley Center", "required":
+    true}, {"type": "boolean", "name": "City_Valley Ford", "required": true}, {"type":
+    "boolean", "name": "City_Valley Springs", "required": true}, {"type": "boolean",
+    "name": "City_Valley Village", "required": true}, {"type": "boolean", "name":
+    "City_Valyermo", "required": true}, {"type": "boolean", "name": "City_Van Nuys",
+    "required": true}, {"type": "boolean", "name": "City_Venice", "required": true},
+    {"type": "boolean", "name": "City_Ventura", "required": true}, {"type": "boolean",
+    "name": "City_Vernalis", "required": true}, {"type": "boolean", "name": "City_Victorville",
+    "required": true}, {"type": "boolean", "name": "City_Villa Park", "required":
+    true}, {"type": "boolean", "name": "City_Vina", "required": true}, {"type": "boolean",
+    "name": "City_Visalia", "required": true}, {"type": "boolean", "name": "City_Vista",
+    "required": true}, {"type": "boolean", "name": "City_Volcano", "required": true},
+    {"type": "boolean", "name": "City_Wallace", "required": true}, {"type": "boolean",
+    "name": "City_Walnut", "required": true}, {"type": "boolean", "name": "City_Walnut
+    Creek", "required": true}, {"type": "boolean", "name": "City_Walnut Grove", "required":
+    true}, {"type": "boolean", "name": "City_Warner Springs", "required": true}, {"type":
+    "boolean", "name": "City_Wasco", "required": true}, {"type": "boolean", "name":
+    "City_Washington", "required": true}, {"type": "boolean", "name": "City_Waterford",
+    "required": true}, {"type": "boolean", "name": "City_Watsonville", "required":
+    true}, {"type": "boolean", "name": "City_Weaverville", "required": true}, {"type":
+    "boolean", "name": "City_Weed", "required": true}, {"type": "boolean", "name":
+    "City_Weimar", "required": true}, {"type": "boolean", "name": "City_Weldon", "required":
+    true}, {"type": "boolean", "name": "City_Wendel", "required": true}, {"type":
+    "boolean", "name": "City_Weott", "required": true}, {"type": "boolean", "name":
+    "City_West Covina", "required": true}, {"type": "boolean", "name": "City_West
+    Hills", "required": true}, {"type": "boolean", "name": "City_West Hollywood",
+    "required": true}, {"type": "boolean", "name": "City_West Point", "required":
+    true}, {"type": "boolean", "name": "City_West Sacramento", "required": true},
+    {"type": "boolean", "name": "City_Westlake Village", "required": true}, {"type":
+    "boolean", "name": "City_Westminster", "required": true}, {"type": "boolean",
+    "name": "City_Westmorland", "required": true}, {"type": "boolean", "name": "City_Westport",
+    "required": true}, {"type": "boolean", "name": "City_Westwood", "required": true},
+    {"type": "boolean", "name": "City_Wheatland", "required": true}, {"type": "boolean",
+    "name": "City_White Water", "required": true}, {"type": "boolean", "name": "City_Whitmore",
+    "required": true}, {"type": "boolean", "name": "City_Whittier", "required": true},
+    {"type": "boolean", "name": "City_Wildomar", "required": true}, {"type": "boolean",
+    "name": "City_Williams", "required": true}, {"type": "boolean", "name": "City_Willits",
+    "required": true}, {"type": "boolean", "name": "City_Willow Creek", "required":
+    true}, {"type": "boolean", "name": "City_Willows", "required": true}, {"type":
+    "boolean", "name": "City_Wilmington", "required": true}, {"type": "boolean", "name":
+    "City_Wilseyville", "required": true}, {"type": "boolean", "name": "City_Wilton",
+    "required": true}, {"type": "boolean", "name": "City_Winchester", "required":
+    true}, {"type": "boolean", "name": "City_Windsor", "required": true}, {"type":
+    "boolean", "name": "City_Winnetka", "required": true}, {"type": "boolean", "name":
+    "City_Winterhaven", "required": true}, {"type": "boolean", "name": "City_Winters",
+    "required": true}, {"type": "boolean", "name": "City_Winton", "required": true},
+    {"type": "boolean", "name": "City_Wishon", "required": true}, {"type": "boolean",
+    "name": "City_Witter Springs", "required": true}, {"type": "boolean", "name":
+    "City_Wofford Heights", "required": true}, {"type": "boolean", "name": "City_Woodacre",
+    "required": true}, {"type": "boolean", "name": "City_Woodbridge", "required":
+    true}, {"type": "boolean", "name": "City_Woodlake", "required": true}, {"type":
+    "boolean", "name": "City_Woodland", "required": true}, {"type": "boolean", "name":
+    "City_Woodland Hills", "required": true}, {"type": "boolean", "name": "City_Woody",
+    "required": true}, {"type": "boolean", "name": "City_Wrightwood", "required":
+    true}, {"type": "boolean", "name": "City_Yermo", "required": true}, {"type": "boolean",
+    "name": "City_Yorba Linda", "required": true}, {"type": "boolean", "name": "City_Yorkville",
+    "required": true}, {"type": "boolean", "name": "City_Yountville", "required":
+    true}, {"type": "boolean", "name": "City_Yreka", "required": true}, {"type": "boolean",
+    "name": "City_Yuba City", "required": true}, {"type": "boolean", "name": "City_Yucaipa",
+    "required": true}, {"type": "boolean", "name": "City_Yucca Valley", "required":
+    true}, {"type": "boolean", "name": "City_Zenia", "required": true}, {"type": "boolean",
+    "name": "Offer_Offer B", "required": true}, {"type": "boolean", "name": "Offer_Offer
+    C", "required": true}, {"type": "boolean", "name": "Offer_Offer D", "required":
+    true}, {"type": "boolean", "name": "Offer_Offer E", "required": true}, {"type":
+    "boolean", "name": "Phone Service_Yes", "required": true}, {"type": "boolean",
+    "name": "Multiple Lines_Yes", "required": true}, {"type": "boolean", "name": "Internet
+    Service_Yes", "required": true}, {"type": "boolean", "name": "Internet Type_DSL",
+    "required": true}, {"type": "boolean", "name": "Internet Type_Fiber Optic", "required":
+    true}, {"type": "boolean", "name": "Online Security_Yes", "required": true}, {"type":
+    "boolean", "name": "Online Backup_Yes", "required": true}, {"type": "boolean",
+    "name": "Device Protection Plan_Yes", "required": true}, {"type": "boolean", "name":
+    "Premium Tech Support_Yes", "required": true}, {"type": "boolean", "name": "Streaming
+    TV_Yes", "required": true}, {"type": "boolean", "name": "Streaming Movies_Yes",
+    "required": true}, {"type": "boolean", "name": "Streaming Music_Yes", "required":
+    true}, {"type": "boolean", "name": "Unlimited Data_Yes", "required": true}, {"type":
+    "boolean", "name": "Contract_One Year", "required": true}, {"type": "boolean",
+    "name": "Contract_Two Year", "required": true}, {"type": "boolean", "name": "Paperless
+    Billing_Yes", "required": true}, {"type": "boolean", "name": "Payment Method_Credit
+    Card", "required": true}, {"type": "boolean", "name": "Payment Method_Mailed Check",
+    "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-15 19:14:51.896902'

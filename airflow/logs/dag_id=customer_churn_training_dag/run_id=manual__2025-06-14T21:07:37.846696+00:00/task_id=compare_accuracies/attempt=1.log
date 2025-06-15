@@ -1,0 +1,32 @@
+[2025-06-14T22:07:51.286+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-14T22:07:51.292+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: customer_churn_training_dag.compare_accuracies manual__2025-06-14T21:07:37.846696+00:00 [queued]>
+[2025-06-14T22:07:51.294+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: customer_churn_training_dag.compare_accuracies manual__2025-06-14T21:07:37.846696+00:00 [queued]>
+[2025-06-14T22:07:51.294+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-14T22:07:51.300+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): compare_accuracies> on 2025-06-14 21:07:37.846696+00:00
+[2025-06-14T22:07:51.303+0100] {standard_task_runner.py:64} INFO - Started process 130506 to run task
+[2025-06-14T22:07:51.305+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'customer_churn_training_dag', 'compare_accuracies', 'manual__2025-06-14T21:07:37.846696+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpsch3meqx']
+[2025-06-14T22:07:51.306+0100] {standard_task_runner.py:91} INFO - Job 47: Subtask compare_accuracies
+[2025-06-14T22:07:51.324+0100] {task_command.py:426} INFO - Running <TaskInstance: customer_churn_training_dag.compare_accuracies manual__2025-06-14T21:07:37.846696+00:00 [running]> on host neonm.
+[2025-06-14T22:07:51.353+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='customer_churn_training_dag' AIRFLOW_CTX_TASK_ID='compare_accuracies' AIRFLOW_CTX_EXECUTION_DATE='2025-06-14T21:07:37.846696+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-14T21:07:37.846696+00:00'
+[2025-06-14T22:07:51.354+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-14T22:07:51.357+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-14T22:07:51.357+0100] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/press/coding/acronis_interview_v02/airflow/dags/dag.py", line 17, in _compare_accuracies
+    small_accuracy = float(ti.xcom_pull(task_ids='train_on_small_dataset'))
+ValueError: could not convert string to float: '🧪 View experiment at: http://127.0.0.1:5000/#/experiments/1'
+[2025-06-14T22:07:51.359+0100] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=customer_churn_training_dag, task_id=compare_accuracies, run_id=manual__2025-06-14T21:07:37.846696+00:00, execution_date=20250614T210737, start_date=20250614T210751, end_date=20250614T210751
+[2025-06-14T22:07:51.364+0100] {standard_task_runner.py:110} ERROR - Failed to execute job 47 for task compare_accuracies (could not convert string to float: '🧪 View experiment at: http://127.0.0.1:5000/#/experiments/1'; 130506)
+[2025-06-14T22:07:51.397+0100] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2025-06-14T22:07:51.404+0100] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-14T22:07:51.404+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

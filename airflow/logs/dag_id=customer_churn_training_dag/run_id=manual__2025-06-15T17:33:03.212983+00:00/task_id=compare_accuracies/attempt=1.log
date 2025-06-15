@@ -1,0 +1,21 @@
+[2025-06-15T18:33:17.450+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-15T18:33:17.456+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: customer_churn_training_dag.compare_accuracies manual__2025-06-15T17:33:03.212983+00:00 [queued]>
+[2025-06-15T18:33:17.459+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: customer_churn_training_dag.compare_accuracies manual__2025-06-15T17:33:03.212983+00:00 [queued]>
+[2025-06-15T18:33:17.459+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-15T18:33:17.466+0100] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): compare_accuracies> on 2025-06-15 17:33:03.212983+00:00
+[2025-06-15T18:33:17.469+0100] {standard_task_runner.py:64} INFO - Started process 488130 to run task
+[2025-06-15T18:33:17.470+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'customer_churn_training_dag', 'compare_accuracies', 'manual__2025-06-15T17:33:03.212983+00:00', '--job-id', '170', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpi_suma84']
+[2025-06-15T18:33:17.471+0100] {standard_task_runner.py:91} INFO - Job 170: Subtask compare_accuracies
+[2025-06-15T18:33:17.491+0100] {task_command.py:426} INFO - Running <TaskInstance: customer_churn_training_dag.compare_accuracies manual__2025-06-15T17:33:03.212983+00:00 [running]> on host neonm.
+[2025-06-15T18:33:17.524+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='customer_churn_training_dag' AIRFLOW_CTX_TASK_ID='compare_accuracies' AIRFLOW_CTX_EXECUTION_DATE='2025-06-15T17:33:03.212983+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-15T17:33:03.212983+00:00'
+[2025-06-15T18:33:17.525+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-15T18:33:17.525+0100] {logging_mixin.py:188} INFO - Accuracy Report:
+[2025-06-15T18:33:17.526+0100] {logging_mixin.py:188} INFO - Small dataset accuracy: 0.735
+[2025-06-15T18:33:17.526+0100] {logging_mixin.py:188} INFO - Full dataset accuracy:  0.8147622427253371
+[2025-06-15T18:33:17.526+0100] {logging_mixin.py:188} INFO - Model trained on the full dataset performs better, use it further
+[2025-06-15T18:33:17.526+0100] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-15T18:33:17.526+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-15T18:33:17.528+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=customer_churn_training_dag, task_id=compare_accuracies, run_id=manual__2025-06-15T17:33:03.212983+00:00, execution_date=20250615T173303, start_date=20250615T173317, end_date=20250615T173317
+[2025-06-15T18:33:17.563+0100] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-06-15T18:33:17.568+0100] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-15T18:33:17.569+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

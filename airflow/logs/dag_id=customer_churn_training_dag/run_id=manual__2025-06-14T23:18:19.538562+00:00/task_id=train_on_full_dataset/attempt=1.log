@@ -1,0 +1,36 @@
+[2025-06-15T00:18:27.294+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-15T00:18:27.301+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: customer_churn_training_dag.train_on_full_dataset manual__2025-06-14T23:18:19.538562+00:00 [queued]>
+[2025-06-15T00:18:27.304+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: customer_churn_training_dag.train_on_full_dataset manual__2025-06-14T23:18:19.538562+00:00 [queued]>
+[2025-06-15T00:18:27.304+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-15T00:18:27.311+0100] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): train_on_full_dataset> on 2025-06-14 23:18:19.538562+00:00
+[2025-06-15T00:18:27.314+0100] {standard_task_runner.py:64} INFO - Started process 206213 to run task
+[2025-06-15T00:18:27.316+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'customer_churn_training_dag', 'train_on_full_dataset', 'manual__2025-06-14T23:18:19.538562+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpdk38bf7q']
+[2025-06-15T00:18:27.316+0100] {standard_task_runner.py:91} INFO - Job 113: Subtask train_on_full_dataset
+[2025-06-15T00:18:27.335+0100] {task_command.py:426} INFO - Running <TaskInstance: customer_churn_training_dag.train_on_full_dataset manual__2025-06-14T23:18:19.538562+00:00 [running]> on host neonm.
+[2025-06-15T00:18:27.365+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='customer_churn_training_dag' AIRFLOW_CTX_TASK_ID='train_on_full_dataset' AIRFLOW_CTX_EXECUTION_DATE='2025-06-14T23:18:19.538562+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-14T23:18:19.538562+00:00'
+[2025-06-15T00:18:27.365+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-15T00:18:27.366+0100] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-06-15T00:18:27.366+0100] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n            cd /home/press/coding/acronis_interview_v02 &&             python scripts/model_training.py                 --data_path kaggle_datasets/telecom_customer_churn.csv                 --n_estimators 100                 --max_depth 10                 --top_n_features 20                 --mlflow_tracking_uri http://127.0.0.1:5000\n        ']
+[2025-06-15T00:18:27.370+0100] {subprocess.py:86} INFO - Output:
+[2025-06-15T00:18:32.108+0100] {subprocess.py:93} INFO - Registered model 'random_forest_model' already exists. Creating a new version of this model...
+[2025-06-15T00:18:32.122+0100] {subprocess.py:93} INFO - 2025/06/15 00:18:32 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: random_forest_model, version 41
+[2025-06-15T00:18:32.122+0100] {subprocess.py:93} INFO - Created version '41' of model 'random_forest_model'.
+[2025-06-15T00:18:32.156+0100] {subprocess.py:93} INFO - Loading data from kaggle_datasets/telecom_customer_churn.csv
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - Converting integer columns to float to handle potential missing values...
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - Logging training data...
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - Training RandomForestClassifier...
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - Accuracy: 0.8147622427253371
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - AUC: 0.8819292670955076
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - Precision: 0.864516129032258
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - Recall: 0.3582887700534759
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - F1 Score: 0.5066162570888468
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - Creating feature importance chart...
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - 0.8147622427253371,16fccd0abf674a5e80b50c1f08bf64ef
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - 🏃 View run adorable-lynx-871 at: http://127.0.0.1:5000/#/experiments/1/runs/16fccd0abf674a5e80b50c1f08bf64ef
+[2025-06-15T00:18:32.157+0100] {subprocess.py:93} INFO - 🧪 View experiment at: http://127.0.0.1:5000/#/experiments/1
+[2025-06-15T00:18:32.292+0100] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-06-15T00:18:32.292+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-15T00:18:32.300+0100] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=customer_churn_training_dag, task_id=train_on_full_dataset, run_id=manual__2025-06-14T23:18:19.538562+00:00, execution_date=20250614T231819, start_date=20250614T231827, end_date=20250614T231832
+[2025-06-15T00:18:32.347+0100] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2025-06-15T00:18:32.355+0100] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-15T00:18:32.357+0100] {local_task_job_runner.py:222} INFO - ::endgroup::

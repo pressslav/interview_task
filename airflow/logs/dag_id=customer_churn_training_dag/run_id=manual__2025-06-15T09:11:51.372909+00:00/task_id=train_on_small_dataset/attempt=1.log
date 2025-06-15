@@ -1,0 +1,39 @@
+[2025-06-15T10:11:54.073+0100] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-15T10:11:54.081+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: customer_churn_training_dag.train_on_small_dataset manual__2025-06-15T09:11:51.372909+00:00 [queued]>
+[2025-06-15T10:11:54.084+0100] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: customer_churn_training_dag.train_on_small_dataset manual__2025-06-15T09:11:51.372909+00:00 [queued]>
+[2025-06-15T10:11:54.084+0100] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-06-15T10:11:54.092+0100] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): train_on_small_dataset> on 2025-06-15 09:11:51.372909+00:00
+[2025-06-15T10:11:54.095+0100] {standard_task_runner.py:64} INFO - Started process 295001 to run task
+[2025-06-15T10:11:54.097+0100] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'customer_churn_training_dag', 'train_on_small_dataset', 'manual__2025-06-15T09:11:51.372909+00:00', '--job-id', '139', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/tmp/tmpdfspyjp2']
+[2025-06-15T10:11:54.098+0100] {standard_task_runner.py:91} INFO - Job 139: Subtask train_on_small_dataset
+[2025-06-15T10:11:54.120+0100] {task_command.py:426} INFO - Running <TaskInstance: customer_churn_training_dag.train_on_small_dataset manual__2025-06-15T09:11:51.372909+00:00 [running]> on host neonm.
+[2025-06-15T10:11:54.157+0100] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='customer_churn_training_dag' AIRFLOW_CTX_TASK_ID='train_on_small_dataset' AIRFLOW_CTX_EXECUTION_DATE='2025-06-15T09:11:51.372909+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-15T09:11:51.372909+00:00'
+[2025-06-15T10:11:54.158+0100] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-15T10:11:54.159+0100] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-06-15T10:11:54.159+0100] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n            cd /home/press/coding/acronis_interview_v02 &&             python scripts/model_training.py                 --data_path data/customer_churn_small.csv                 --n_estimators 50                 --max_depth 5                 --top_n_features 10                 --mlflow_tracking_uri http://127.0.0.1:5000                 --output_path /home/press/coding/acronis_interview_v02/tmp/accuracy/small_dataset_accuracy.txt\n        ']
+[2025-06-15T10:11:54.163+0100] {subprocess.py:86} INFO - Output:
+[2025-06-15T10:13:51.831+0100] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2025-06-15T10:13:51.836+0100] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 295001. PIDs of all processes in the group: [295002, 295003, 295001]
+[2025-06-15T10:13:51.837+0100] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 295001
+[2025-06-15T10:13:51.837+0100] {taskinstance.py:2611} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-06-15T10:13:51.837+0100] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2025-06-15T10:13:51.838+0100] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-15T10:13:51.843+0100] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/operators/bash.py", line 234, in execute
+    result = self.subprocess_hook.run_command(
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/home/press/miniconda3/envs/acronis/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 2613, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2025-06-15T10:13:51.845+0100] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=customer_churn_training_dag, task_id=train_on_small_dataset, run_id=manual__2025-06-15T09:11:51.372909+00:00, execution_date=20250615T091151, start_date=20250615T091154, end_date=20250615T091351
+[2025-06-15T10:13:51.864+0100] {process_utils.py:80} INFO - Process psutil.Process(pid=295002, status='terminated', started='10:11:53') (295002) terminated with exit code None
+[2025-06-15T10:13:51.864+0100] {process_utils.py:80} INFO - Process psutil.Process(pid=295003, status='terminated', started='10:11:53') (295003) terminated with exit code None
+[2025-06-15T10:13:51.864+0100] {process_utils.py:80} INFO - Process psutil.Process(pid=295001, status='terminated', exitcode=2, started='10:11:53') (295001) terminated with exit code 2

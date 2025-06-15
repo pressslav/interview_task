@@ -1,0 +1,32 @@
+[2025-06-15T00:21:13.339+0100] {processor.py:161} INFO - Started process (PID=209447) to work on /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:21:13.340+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py for tasks to queue
+[2025-06-15T00:21:13.340+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:21:13.340+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:21:13.900+0100] {processor.py:840} INFO - DAG(s) 'customer_churn_training_dag_alternative' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:21:13.981+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:21:13.981+0100] {override.py:1829} INFO - Created Permission View: can read on DAG:customer_churn_training_dag_alternative
+[2025-06-15T00:21:14.010+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:21:14.010+0100] {override.py:1829} INFO - Created Permission View: can delete on DAG:customer_churn_training_dag_alternative
+[2025-06-15T00:21:14.015+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:21:14.015+0100] {override.py:1829} INFO - Created Permission View: can edit on DAG:customer_churn_training_dag_alternative
+[2025-06-15T00:21:14.016+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:21:14.016+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T00:21:14.022+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:21:14.021+0100] {dag.py:3111} INFO - Creating ORM DAG for customer_churn_training_dag_alternative
+[2025-06-15T00:21:14.022+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:21:14.022+0100] {dag.py:3947} INFO - Setting next_dagrun for customer_churn_training_dag_alternative to None, run_after=None
+[2025-06-15T00:21:14.033+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py took 0.697 seconds
+[2025-06-15T00:22:05.477+0100] {processor.py:161} INFO - Started process (PID=209995) to work on /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:22:05.482+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py for tasks to queue
+[2025-06-15T00:22:05.483+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:22:05.483+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:22:05.926+0100] {processor.py:840} INFO - DAG(s) 'customer_churn_training_dag_alternative' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:22:05.935+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:22:05.935+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T00:22:05.942+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:22:05.942+0100] {dag.py:3947} INFO - Setting next_dagrun for customer_churn_training_dag_alternative to None, run_after=None
+[2025-06-15T00:22:05.960+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py took 0.486 seconds
+[2025-06-15T00:22:57.192+0100] {processor.py:161} INFO - Started process (PID=210459) to work on /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:22:57.193+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py for tasks to queue
+[2025-06-15T00:22:57.193+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:22:57.193+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:22:57.623+0100] {processor.py:840} INFO - DAG(s) 'customer_churn_training_dag_alternative' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:22:57.634+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:22:57.634+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T00:22:57.641+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:22:57.641+0100] {dag.py:3947} INFO - Setting next_dagrun for customer_churn_training_dag_alternative to None, run_after=None
+[2025-06-15T00:22:57.671+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py took 0.482 seconds
+[2025-06-15T00:23:49.930+0100] {processor.py:161} INFO - Started process (PID=210911) to work on /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:23:49.935+0100] {processor.py:830} INFO - Processing file /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py for tasks to queue
+[2025-06-15T00:23:49.936+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:23:49.935+0100] {dagbag.py:545} INFO - Filling up the DagBag from /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:23:50.440+0100] {processor.py:840} INFO - DAG(s) 'customer_churn_training_dag_alternative' retrieved from /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py
+[2025-06-15T00:23:50.455+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:23:50.455+0100] {dag.py:3089} INFO - Sync 1 DAGs
+[2025-06-15T00:23:50.462+0100] {logging_mixin.py:188} INFO - [2025-06-15T00:23:50.461+0100] {dag.py:3947} INFO - Setting next_dagrun for customer_churn_training_dag_alternative to None, run_after=None
+[2025-06-15T00:23:50.474+0100] {processor.py:183} INFO - Processing /home/press/coding/acronis_interview_v02/airflow/dags/dag_alternative.py took 0.548 seconds

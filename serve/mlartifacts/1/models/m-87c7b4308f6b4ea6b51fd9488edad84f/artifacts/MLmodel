@@ -1,0 +1,59 @@
+artifact_path: mlflow-artifacts:/1/models/m-87c7b4308f6b4ea6b51fd9488edad84f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.23
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 3.1.0
+model_id: m-87c7b4308f6b4ea6b51fd9488edad84f
+model_size_bytes: 16706099
+model_uuid: m-87c7b4308f6b4ea6b51fd9488edad84f
+prompts: null
+run_id: 40e6ed3ebc994eefa615ac57c13170f6
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "Gender", "required": true}, {"type": "long",
+    "name": "Age", "required": true}, {"type": "string", "name": "Married", "required":
+    true}, {"type": "long", "name": "Number of Dependents", "required": true}, {"type":
+    "string", "name": "City", "required": true}, {"type": "long", "name": "Zip Code",
+    "required": true}, {"type": "double", "name": "Latitude", "required": true}, {"type":
+    "double", "name": "Longitude", "required": true}, {"type": "long", "name": "Number
+    of Referrals", "required": true}, {"type": "long", "name": "Tenure in Months",
+    "required": true}, {"type": "string", "name": "Offer", "required": false}, {"type":
+    "string", "name": "Phone Service", "required": true}, {"type": "double", "name":
+    "Avg Monthly Long Distance Charges", "required": true}, {"type": "string", "name":
+    "Multiple Lines", "required": true}, {"type": "string", "name": "Internet Service",
+    "required": true}, {"type": "string", "name": "Internet Type", "required": false},
+    {"type": "double", "name": "Avg Monthly GB Download", "required": false}, {"type":
+    "string", "name": "Online Security", "required": false}, {"type": "string", "name":
+    "Online Backup", "required": false}, {"type": "string", "name": "Device Protection
+    Plan", "required": false}, {"type": "string", "name": "Premium Tech Support",
+    "required": false}, {"type": "string", "name": "Streaming TV", "required": false},
+    {"type": "string", "name": "Streaming Movies", "required": false}, {"type": "string",
+    "name": "Streaming Music", "required": false}, {"type": "string", "name": "Unlimited
+    Data", "required": false}, {"type": "string", "name": "Contract", "required":
+    true}, {"type": "string", "name": "Paperless Billing", "required": true}, {"type":
+    "string", "name": "Payment Method", "required": true}, {"type": "double", "name":
+    "Monthly Charge", "required": true}, {"type": "double", "name": "Total Charges",
+    "required": true}, {"type": "double", "name": "Total Refunds", "required": true},
+    {"type": "long", "name": "Total Extra Data Charges", "required": true}, {"type":
+    "double", "name": "Total Long Distance Charges", "required": true}, {"type": "double",
+    "name": "Total Revenue", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-06-15 10:58:23.775773'
