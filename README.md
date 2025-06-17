@@ -4,6 +4,7 @@
 ```bash
 pip install -r requirements.txt
 ```
+Python version 3.9 is needed to run the specific version of the Airflow UI I'm using
 
 ### 2. Prepare Data
 ```bash
